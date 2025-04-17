@@ -1,0 +1,196 @@
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta property="og:title" content="원치과-랜딩">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="원치과">
+	<meta name="subject" content="원치과-랜딩">
+	<title>원치과</title>	
+	<script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+	<script src="./files/jquery.min.js"></script>
+	<script src="./files/jquery-ui.min.js"></script>
+	<script src="./files/common.js"></script>
+    <script src="./files/hangul.js"></script>
+	<link type="text/css" href="./files/jquery-ui.min.css" rel="stylesheet">
+	<link type="text/css" href="./files/animate.min.css" rel="stylesheet">
+	<link type="text/css" href="./files/common.css" rel="stylesheet">
+<style>
+	.formContents .img-area{
+		position: relative;
+	}
+	.formContents .img-area .btn1{
+		top: 56%;
+		position: absolute;
+		z-index: 1;
+		width: 58%;
+		left: 21%;
+		cursor: pointer;
+	}
+	.dbName{
+		padding-left: 3%;
+		position: absolute;
+		top: 6.8%;
+		width: 32%;
+		left: 33%;
+		height: 16%;
+		border: none;
+	}
+	.dbCellPhone{
+		border: none;
+		position: absolute;
+		top: 31%;
+		height: 16%;
+		width: 9%;
+	}
+	.dbCellPhone1{
+		left: 40%;
+	}
+	.dbCellPhone2{
+		left: 53%;
+	}
+	.dbCellPhone3{
+		left: 66%;
+	}
+	.dbCheckbox{
+		position: absolute !important;
+		width: 3% !important;
+		height: 7% !important;
+		bottom: 8% !important;
+		left: 23% !important;
+		background: #fff;
+		clip: inherit !important;
+		-webkit-appearance: checkbox !important;
+	}
+	.confirm2{
+		position: absolute;
+		color: #fff;
+		cursor: pointer;
+		font-size: 2vw;
+		bottom: 8%;
+		right: 22%;
+		font-weight: bold;
+	}
+	.form{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		max-width: 818px;
+	}
+	@media screen and (min-width: 819px) {
+		.confirm2{
+			font-size: 17px;
+		}
+	}
+</style>
+</head>
+<body>
+<h1 class="alignCenter blind"></h1>
+<div id="wrap"> 
+    <div class="container">
+		<div class="img-area">
+			<img src="./files/main1.gif" alt="">
+			<img src="./files/main2.jpg" alt="">
+			<img src="./files/main3.jpg" alt="">
+			 
+		</div>
+		<div class="form">
+			<form id="form-subscribe" method="POST" action="#" accept-charset="utf-8"> 
+				<div class="formContents">
+					<div class="img-area">
+						<img src="./files/form.jpg" alt="">
+						<img src="./files/btn.gif" alt="" class="btn1">
+						<input type="text" class="dbName" name="dbName" class="inp" required="" autocomplete="off">
+						<input type="text" class="dbCellPhone dbCellPhone1 int" name="dbCellPhone1" maxlength="3" required="" autocomplete="off">
+						<input type="text" class="dbCellPhone dbCellPhone2 int" name="dbCellPhone2" maxlength="4" required="" autocomplete="off">
+						<input type="text" class="dbCellPhone dbCellPhone3 int" name="dbCellPhone3" maxlength="4"required="" autocomplete="off">
+						<input type="checkbox" class="dbCheckbox" name="agBox">
+						<div class="confirm2">보기</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<script>
+	$(function(){
+		$(".img-area").eq(0).css("padding-bottom", $(".form").height());
+	});
+	//Submit
+	let send = true;
+	$('.btn1').on('click', function(e) {
+		if($('input[name="dbName"]').val() == ""){
+			$('input[name="dbName"]').focus();
+			alert("성함을 입력해주세요.");
+			return false;
+		}
+		if($('input[name="dbCellPhone1"]').val() == "" || $('input[name="dbCellPhone2"]').val() == "" || $('input[name="dbCellPhone3"]').val() == "" ){
+			alert("전화번호를 입력해주세요.");
+			return false;
+		}	
+		if($('input[name="agBox"]').is(":checked") == false){
+			alert("개인정보 수집 및 이용에 관한 사항에 동의해주세요.");
+			return false;
+		}
+		if(send){
+			const phone = $(".dbCellPhone1").val() + $(".dbCellPhone2").val() + $(".dbCellPhone3").val();
+			const fast__data = fastValidation($('input[name="dbName"]'), phone, "매체변경");			
+			$.ajax({
+				type: "POST",
+				url: "/controller/fast_consult_proc.php",
+				dataType: "json",
+				data: fast__data,
+				success: function (response) {
+					if (response.result) {
+						$.post("../save.php", 
+						{
+							"dbName" : $('input[name="dbName"]').val(), 
+							"dbCellPhone" : $('input[name="dbCellPhone"]').val(), 
+							"dbRaw" : "", 
+							"dbChannel1" : "원치과-랜딩",
+							"dbChannel2" : "",
+							"dbChannel3" : "심의",
+							"dbChannel4" : "타입1_240418"
+						}, function(data){
+							alert("상담신청이 완료되었습니다.");
+							window.location.reload();
+						});
+					} else {
+						if (response.msg != null) {
+							alert(response.msg);
+						}
+						return false;
+					}
+				}
+			});		
+			send = false;
+			return false; //ajax로 처리할 경우 추가
+		}
+	});
+	
+	const fastValidation = (name, phone, pain_area) => {
+		if (name.val() === "") {
+			alert("이름을 입력해주세요");
+			name.focus();
+			return false;
+		}
+		if (phone === "") {
+			alert("연락처를 입력해주세요");
+			return false;
+		}
+		return {
+			mode: 'insert',
+			name : name.val(),
+			phone : phone,
+			pain_area : pain_area
+		}
+	}
+	
+	$(".int").on("keyup", function(e){
+		let value = $(this).val();
+        let newValue = value.replace(/[^0-9]/g, '');
+        $(this).val(newValue);
+	});
+</script>
+</body>
+</html>

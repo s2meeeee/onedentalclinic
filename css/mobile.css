@@ -1,0 +1,1160 @@
+@charset "utf-8";
+
+
+
+
+body {font-family:  "Noto Sans KR", sans-serif;font-size: 10px;  padding: 0; margin: 0; }
+#wrap {display: block; position: relative;min-height: 500px;height: 100%; padding: 0; margin: 0; width: 100%; overflow-x: hidden}
+#wrap>#content {display: block; padding-bottom: 60px}
+.flex-control-paging li a {-webkit-box-shadow: none;box-shadow: none;width: 1em;height: 1em}
+.flex-control-paging li a.flex-active {background: #fff}
+
+
+
+li{font-size: 10px; vertical-align: top}
+
+#wrapper{width: 100%; padding: 0; margin: 0;padding-bottom: 100px; clear: both}
+#wrapper2{width: 100%; padding: 0; margin: 0;padding-bottom: 0px; clear: both}
+
+.pc{display: none !important}
+.mobile{display: block !important}
+.mobile2{display:inline-block !important}
+
+
+
+.topBnner ul{background: #cdcdcd}
+.topBnner ul li{display: block; width: 100%; text-align: right; height: 70px; background: url("https://onedentalad.co.kr/img/top_banner01_bg.png") top left no-repeat #f3f5f9; background-size: auto  100%;}
+.topBnner ul li:nth-child(2){text-align: left; background: url("https://onedentalad.co.kr/img/top_banner02_bg.png") top right no-repeat #fff;  background-size: auto 100%  }
+.topBnner ul li ol{display: block; width: 100%;  text-align: right;  vertical-align: top; padding-left:0%; padding-right: 10px; padding-top:  15px; margin-top: 0px }
+.topBnner ul li:nth-child(1) ol{float: none; text-align: right; padding-right: 10px; padding-left:0%}
+.topBnner ul li ol img{display: inline-block;vertical-align: top; margin-top: 5px; width: 40px}
+.topBnner ul li ol dt{display: inline-block; color: #1d2735; font-size: 3.065em; font-weight: 900; margin-top: 0px}
+.topBnner ul li ol dl{display: inline-block; color: #1a2a71; font-size: 1.500em; font-weight: 900; margin: 15px 10px 0; vertical-align: top}
+.topBnner ul li ol dd{display: inline-block; color: #1d2735; font-size: 0.875em;font-weight: 900;}
+.topBnner ul li:nth-child(2) ol dl{margin: 15px 10px 0 15px;}
+.topBnner ul li:nth-child(2) ol{text-align: left}
+
+
+
+
+
+#header {  z-index: 999; position: relative; background: #1d2735}
+#header:hover{background: #3c3f45}
+
+
+.inner{display: block; width: 98%; margin: 0 auto; }
+.inner2{display: block; width: 98%; margin: 0 auto; }
+
+.inner1400{width: 98%;  margin: 0 auto; }
+.inner1200{width: 98%;  margin: 0 auto; }
+.inner1100{width: 98%;  margin: 0 auto; }
+
+.headerTopM{height: 60px; padding: 5px 10px}
+
+
+.logoM{display: inline-block;}
+.logoM img{height: 50px !important;}
+.menu{ display: none}
+
+
+.all{position: absolute; top:10px; left:10px; z-index: 999;  }
+.all img{width: 30px; }
+
+.img100{width: 100% !important}
+
+
+@media all and (max-width:360px){ 
+
+.topMenu  img{height: 20px; margin-left: 30px; margin-top: 5px }
+.topMenu .rightBox01 img{margin-left: 0; height: 20px; margin-top: 10px}
+.all img{width: 20px; }
+}
+
+@media all and (max-width:280px){ 
+
+	.topMenu span{ font-size: 1.600em;}
+}
+
+
+.topMenu2{display: block; text-align: center;font-size:1.55em;  line-height: 40px; padding: 10px 0 ; border-top: #e4e4e4 1px solid; border-bottom: #e4e4e4 1px solid;}
+.topMenu2 a{margin: 0 4%}
+
+#gnb {display: none }
+
+
+
+
+
+
+
+
+.header .all .subYes{ margin-top: 0px}
+
+
+
+#gnb_open{position: absolute; width: 40px;border: 0; top:0px; right: 10px; margin-top: 5px;  background: 0;height: 40px;color: #fff; font-size: 18px;vertical-align:top; display: block; z-index: 999 !important}
+#gnb_open img{width: 40px; height: 40px; position: relative; padding-left:-20px}
+
+#gnb2 {display:none;position:fixed;top:0;right:0;height:100%;background:#373739;z-index:99999;width:50%; font-size: 20px}
+#gnb2 .btn_close {position:absolute;top:30px;right:0px;width:40px;height:40px;border:0;background: url("https://onedentalad.co.kr/img/btn_close.png") no-repeat top left; background-size: 100%; font-size: 0}
+#gnb2 .gnb_tnb{padding:20px 10px;}
+#gnb2 .gnb_tnb li{display:inline-block;line-height:40px;}
+#gnb2 .gnb_tnb li a{color:#b8b8b8;display:block;padding:0 10px; } 
+#gnb2_1dul{margin:20px 0; text-align: left}
+#gnb2_1dul .gnb2_1dli{position:relative}
+#gnb2_1dul .gnb2_1dli button{position:absolute;top:0;right:0;border:0;background:none;height:50px;width:50px;text-indent:-999px;overflow:hidden; background: url("https://onedentalad.co.kr/img/gnb_bg2.png") no-repeat 50% 50%;background-size:10px}
+#gnb2_1dul .gnb2_1da{padding:0 20px;display:block;color:#fff;font-size:16px;line-height:50px}
+#gnb2_1dul .gnb2_2dul {display:none}
+#gnb2_1dul .gnb2_2da {color:#a8a6b0;padding:0 30px;font-weight:normal;white-space: nowrap;line-height:30px; font-size: 14px}
+#gnb2_1dul .l2{ color: #a2a2a2 !important}
+#gnb2_1dul .l2:before {content:"ㆍ"; color: #a2a2a2 !important; }
+#gnb2_1dul .l2:hover {color: #0158f3 !important; }
+
+/* #footer */
+
+
+
+#footer {position: relative; display: block; background: #3c3f45;}
+#footer .footerCenter{padding:30px 20px 30px  20px; position: relative;}
+
+#footer .footerCenter01{  display: block; width: 100%; vertical-align: top; }
+#footer .footerCenter01 img{ position: absolute; left:0; margin-top: -35px; margin-left: -210px; display: none}
+
+#footer .footerCenter02{display: inline-block; width: auto; vertical-align: top; position: absolute; right: 0; top:30px}
+#footer .footerCenter02 h2{color:#fff; font-size: 1.000em;  display: none}
+#footer .footerCenter02 dt{color: #62a5ff; font-size: 1.875em; margin-top: 0px}
+#footer .footerCenter03{ display: none}
+
+
+#footer .copyInfo{display: block;  vertical-align: top; text-align: left; font-size: 1.000em; color: #fff; line-height: 160%; }
+#footer .copyInfo a{ font-weight: 700; color: #fff}
+#footer .copyInfo span{padding: 0 10px}
+#footer .copyInfo dd{margin-top: 10px; color: #cccccc; font-size: 1.000em; line-height: 1.8}
+#footer .copyInfo dd span{padding: 0 5px}
+
+
+
+
+
+#top_btn {position:fixed;bottom:20px;right:20px;width:50px;height:50px;line-height:46px;border:2px solid #333;color:#333;text-align:center;font-size:15px;z-index:90;background:rgba(255,255,255,0.5)}
+#top_btn:hover {border-color:#3059c7;background:#3059c7;color:#fff}
+
+
+
+
+
+
+
+
+/* index */
+
+
+
+/* 게시판 */
+
+
+
+.boardList{border:0; border-spacing:0; padding:0; border-collapse:collapse; width: 100%}
+.boardList tr{cursor:pointer;}
+.boardList tr th{color: #020202; font-size: 1.125em; border-bottom: #d3d3d3 1px solid; padding: 17px 0 15px; text-align: center; border-top: #12213c 2px solid; font-weight: 700}
+.boardList tr td{color: #696969; font-size: 1.000em; border-bottom: #d3d3d3 1px solid; padding: 15px 0px 13px; text-align: center}
+.boardList tr td.txtLeft{text-align: left}
+
+
+.boardList2 a{display: block; width: 100%; margin-top: 30px}
+.boardList2 a + a{margin-left: 0px;}
+.boardList2 a:nth-child(5), .boardList2 a:nth-child(9), .boardList2 a:nth-child(13), .boardList2 a:nth-child(17){margin-left: 0}
+.boardList2 a img{padding-bottom: 13px; width: 100%;}
+.boardList2 a:nth-child(1){margin-top: 0}
+.boardList2 a:nth-child(2), .boardList2 a:nth-child(3), .boardList2 a:nth-child(4){margin-top: 30px}
+
+.boardList3 a{display: block; width: 100%;  margin: 20px 0px 0; padding-bottom: 10px}
+.boardList3 a img{width: 100%}
+.boardList3 a dt{padding: 8px; }
+.boardList3 a dl{padding-left: 8px; }
+.boardList3 a dd{padding-left: 8px; }
+
+
+.boardList4 a{ width: 45%; }
+.boardList4 img{width: 94%}
+.boardList4 a + a{margin-left: 2%; margin-right: 2%}
+
+.boardListImg{border-top: #12213c 2px solid;}
+.boardListImg ul li{display: block; width: 100%; margin-top: 35px; border: #d3d3d3 1px solid; cursor:pointer;}
+.boardListImg ul li:nth-child(2n){margin-left: 0px; margin-top:30px}
+.boardListImg ul li ol.info{border-top: #d3d3d3 1px solid; padding: 20px 20px}
+.boardListImg ul li ol.info dl{font-size: 1.250em}
+.boardListImg ul li ol.info dd{font-size: 1.000em; margin-top: 15px}
+.boardListImg ul li ol.img01 {position: relative;  height: 30vw}
+.boardListImg ul li ol.img01 span{position: absolute;width: 100%; height: 100%; display: flex; background: url("https://onedentalad.co.kr/img/board/before_bg.png") left top; color: #fff; z-index: 9; font-size: 1.125em;justify-content:center; align-items:center;}
+.boardListImg ul li ol.img01 .box01{display: inline-block; width: 50%; background: #666666; text-align: center; color: #fff; height: 100%; line-height: 38px}
+.boardListImg ul li ol.img01 .box02{float: right; width: 50%; background: #002047; text-align: center; color: #fff; height: 100%; line-height: 38px}
+.boardListImg ul li ol.img01 img{width: 100%; height: 100%}
+
+.boardListImg2 ul{padding: 0 20px}
+.boardListImg2 ul li{width:100%; margin-left: 0px;}
+.boardListImg2 ul li:nth-child(2n){margin-left: 0px;}
+.boardListImg2 ul li ol.img01 {position: relative; height: 55vw !important}
+.boardListImg2 ul li:nth-child(1){margin-left: 0}
+.boardListImg2 ul li:nth-child(4){margin-left: 0}
+.boardListImg2 ul li:nth-child(7){margin-left: 0}
+
+.boardListImg3 ul li{display:block; width: 100%; margin-top: 35px; border:none; border-bottom: #d3d3d3 1px solid; cursor:pointer; padding: 0 25px 35px; }
+.boardListImg3 ul li:nth-child(2n){margin-left: 0px;}
+.boardListImg3 ul li ol.img01{display: inline-block; width: 280px; min-height: 170px; vertical-align: top}
+.boardListImg3 ul li ol.img01 img {border: #d3d3d3 1px solid; width: 250px; height: 170px}
+.boardListImg3 ul li ol.info{display: inline-block; width: 800px; border-top: #d3d3d3 0px solid; padding: 50px 0px}
+
+
+
+
+
+
+.boardNewsList tr td:nth-child(2){ padding-left: 5px}
+.boardNewsList tr.notice td span{  padding: 8px 8px;}
+
+.boardSpeList tr td:nth-child(2) img{margin-left: 5px; width: 8px}
+.boardSpeList tr td span{ padding: 8px 8px; }
+
+
+.boardPage{ width: 100%;}
+
+
+
+.boardView{border-top: #333333 2px solid; }
+.boardView ul li{ padding: 17px 0 14px 10px; font-size: 12px}
+.boardView ul:nth-child(1) li { font-size: 14px; }
+.boardView ul.lineA li:nth-child(1){display: inline-block; width: 50%;}
+.boardView ul.lineA li:nth-child(2){display: inline-block; width: 25%; text-align: center}
+.boardView ul.lineA li:nth-child(3){display: inline-block; width: 25%; text-align: center}
+.boardView ul.lineB li{border-bottom: #333333 1px solid;}
+.boardView ul.lineC li{border-bottom: #d3d3d3 2px solid; padding: 30px 10px;}
+.boardView ul li img{max-width: 100% !important; height: auto !important}
+
+
+.boardView02 tr th{ padding: 15px 10px 13px 10px;}
+.boardView02 tr td{padding: 15px 10px 13px; }
+.boardView02 tr td dl{padding: 10px 10px; }
+.boardView02 tr td dd{padding: 10px 10px 10px 30px;  }
+.boardView02 tr td dd span{ margin-left: -20px}
+
+.boardViewBefore ol.img01 {flex-direction: column;}
+.boardViewBefore ol.img02{width: 100%; margin: 0 auto}
+
+
+
+.boardSearch{ margin: 30px 0 10px}
+.boardSearch select {height: 32px; width: 30%; }
+.boardSearch input[type="text"]{ width: 48%; height: 32px; }
+.boardSearch input[type="button"]{height: 32px; width: 20%;}
+.boardSearch input[type="submit"]{height: 32px; width: 20%;}
+
+.boardWrite tr th{padding: 15px 0 13px 10px;}
+.boardWrite tr td{ padding: 5px 10px 5px;}
+.boardWrite tr td input[type="text"]{ width: 100%; }
+.boardWrite tr td select{ width: 100%;}
+.boardWrite tr td img{width: 100%;}
+
+
+.boardBtn{ margin: 30px auto 0; text-align: center}
+.boardBtn span.left{position: absolute; left:10px; }
+.boardBtn span.right{position: absolute; right:10px; }
+.boardBtn a.list{ padding: 5px 10px 2px}
+.boardBtn a.write{ padding: 5px 10px 2px}
+.boardBtn a.on{ padding: 5px 10px 2px}
+
+/* 서브 공통 */
+
+
+#wrapper{padding-bottom: 70px}
+
+.subTop{ padding-top: 10px;}
+.subTop dl{letter-spacing:-0.04em;}
+.subTop dl b{font-weight: 400}
+.subTop dt{ margin-top: 30px}
+.subTop dd{margin-bottom: 70px}
+
+
+
+
+
+.subTopImg{height:20vh; padding-top: 6vh; background-size: auto 20vh}
+.subTopImg dt{padding-left: 5%; font-size: 2.000em;}
+.subTopImg dl{padding-left: 5%; font-size: 2.000em;}
+
+
+.subTopImg0303 dt, .subTopImg030302 dt{padding-left: 10%}
+.subTopImg0303 dl, .subTopImg030302 dl{padding-left: 10%;}
+
+
+.subTopTab{position: relative; line-height: 130%;  margin-top: -30px;  height: auto; width: 100%; left:0%; margin-left:0; font-size: 0; }
+.subTopTab a{height: auto; padding: 10px 0; line-height:120%; font-size: 12px; }
+
+.subCenterTab a{ height: 46px;   line-height: 47px;  font-size: 12px;}
+
+
+.subTabCenter a{width: 20%; font-size: 11px;}
+
+
+.subTabkne{letter-spacing:-0.06em; vertical-align: middle}
+.subTabkne a{ height: 58px;vertical-align: center;}
+.subTabkne a:nth-child(1){letter-spacing:-0.08em;font-size: 10px; padding: 0}
+.subTabkne a:nth-child(2){padding: 0px 0 0px;}
+.subTabkne a:nth-child(3){padding: 0px 0 0px;}
+
+.subTabhip a:nth-child(1){padding: 18px 0 17px;}
+
+
+
+.subTab02 a{width: 50%;}
+.subTab03 a{width: 33.333%;}
+.subTab04 a{width: 50%;}
+.subTab04 a:nth-child(1), .subTab04 a:nth-child(2){border-bottom: none}
+.subTab04 a:nth-child(2){border-right: #cfcfcf 1px solid}
+.subTab05 a{width: 50%;}
+.subTab05 a:nth-child(5){width: 100%;}
+.subTab05 a:nth-child(3), .subTab05 a:nth-child(4){border-bottom: none; border-top: none}
+
+
+.subTab06 a{width: 50%;}
+.subTab06 a:nth-child(3), .subTab06 a:nth-child(4){border-bottom: none; border-top: none}
+
+
+.subTab07 a{width: 33.333%;}
+.subTab07 a:nth-child(4){width: 34%; border-top: none}
+.subTab07 a:nth-child(5), .subTab07 a:nth-child(6),.subTab07 a:last-child {width: 22%; border-top: none}
+.subTab08 a{width:50%;}
+.subTab08 a:nth-child(1), .subTab08 a:nth-child(2){border-bottom: none}
+.subTab08 a:nth-child(4){border-right: none}
+.subTab08 a:nth-child(5), .subTab08 a:nth-child(6), .subTab08 a:nth-child(7), .subTab08 a:nth-child(8){border-top: none}
+.subTab08 a:nth-child(2), .subTab08 a:nth-child(4), .subTab08 a:nth-child(6){border-right: #cfcfcf 1px solid}
+
+.tabW02 ul li{width: 50%;}
+.tabW03 ul li{width: 33.333%;}
+.tabW04 ul li{width: 25%;}
+.tabW05 ul li{width: 20%;}
+.tabW06 ul li{width: 16.666%;}
+.tabW07 ul li{width: 14.285%;}
+
+
+.subTapIntro{position: relative; height: auto}
+.subTapIntro a{width: 33.333%;}
+.subTapIntro a:nth-child(5), .subTapIntro a:nth-child(6), .subTapIntro a:nth-child(7), .subTapIntro a:nth-child(8), .subTapIntro a:nth-child(9){border-top: none; width: 33.333%}
+.subTapIntro a:nth-child(4){border-right: #cfcfcf 0px solid; border-top: none}
+.subTapIntro a:nth-child(3), .subTapIntro a:nth-child(6){border-right: #cfcfcf 1px solid}
+
+
+
+.subTabext a:nth-child(3){width: 100%; border-bottom: none; border-top: none; border-right: #cfcfcf 1px solid}
+.subTabext a:nth-child(2){border-right: #cfcfcf 1px solid}
+.subTabext a:nth-child(5){width: 50%;}
+.subTabext a:nth-child(4){border-bottom: #cfcfcf 1px solid; border-top:  #cfcfcf 1px solid}
+
+
+.mt10{margin-top: 5px !important;}
+.mt20{margin-top: 10px !important;}
+.mt30{margin-top: 15px !important;}
+.mt40{margin-top: 20px !important;}
+.mt50{margin-top: 25px !important;}
+.mt60{margin-top: 30px !important;}
+.mt70{margin-top: 35px !important;}
+.mt80{margin-top: 40px !important;}
+.mt90{margin-top: 45px !important;}
+.mt100{margin-top: 50px !important;}
+.mt110{margin-top: 55px !important;}
+.mt120{margin-top: 60px !important;}
+.mt130{margin-top: 65px !important;}
+.mt140{margin-top: 70px !important;}
+.mt150{margin-top: 75px !important}
+.mt160{margin-top: 80px !important;}
+.mt170{margin-top: 85px !important;}
+.mt180{margin-top: 90px !important;}
+.mt190{margin-top: 95px !important;}
+.mt200{margin-top: 100px !important;}
+
+.mb30{margin-bottom: 15px !important;}
+.mb40{margin-bottom: 20px !important;}
+.mb50{margin-bottom: 25px !important;}
+.mb60{margin-bottom: 30px !important;}
+.mb70{margin-bottom: 35px !important;}
+.mb80{margin-bottom: 40px !important;}
+.mb90{margin-bottom: 45px !important;}
+.mb100{margin-bottom: 50px !important;}
+.mb110{margin-bottom: 55px !important;}
+.mb120{margin-bottom: 60px !important;}
+.mb130{margin-bottom: 65px !important;}
+.mb140{margin-bottom: 70px !important;}
+.mb150{margin-bottom: 75px !important;}
+.mb160{margin-bottom: 80px !important;}
+.mb170{margin-bottom: 85px !important;}
+.mb180{margin-bottom: 90px !important;}
+.mb190{margin-bottom: 95px !important;}
+.mb200{margin-bottom: 100px !important;}
+.mb-150{margin-bottom: -100px !important}
+
+
+.pt10{padding-top: 5px !important;}
+.pt20{padding-top: 10px !important;}
+.pt30{padding-top: 15px !important;}
+.pt40{padding-top: 20px !important}
+.pt50{padding-top: 25px !important}
+.pt60{padding-top: 30px !important}
+.pt70{padding-top: 35px !important}
+.pt80{padding-top: 40px !important}
+.pt90{padding-top: 45px !important}
+.pt100{padding-top: 50px !important}
+.pt110{padding-top: 55px !important}
+.pt120{padding-top: 60px !important}
+.pt130{padding-top: 65px !important}
+.pt140{padding-top: 70px !important}
+.pt150{padding-top: 75px !important}
+.pt160{padding-top: 80px !important}
+.pt170{padding-top: 85px !important}
+.pt180{padding-top: 90px !important}
+.pt190{padding-top: 95px !important}
+.pt200{padding-top: 100px !important}
+
+.pb10{padding-bottom: 5px !important}
+.pb20{padding-bottom: 10px !important}
+.pb30{padding-bottom: 15px !important}
+.pb40{padding-bottom: 20px !important}
+.pb50{padding-bottom: 25px !important}
+.pb60{padding-bottom: 30px !important}
+.pb70{padding-bottom: 35px !important}
+.pb80{padding-bottom: 40px !important}
+.pb90{padding-bottom: 45px !important}
+.pb100{padding-bottom: 50px !important}
+.pb110{padding-bottom: 55px !important}
+.pb120{padding-bottom: 60px !important}
+.pb130{padding-bottom: 65px !important}
+.pb140{padding-bottom: 70px !important}
+.pb150{padding-bottom: 75px !important}
+.pb160{padding-bottom: 80px !important}
+.pb170{padding-bottom: 85px !important}
+.pb180{padding-bottom: 90px !important}
+.pb190{padding-bottom: 95px !important}
+.pb200{padding-bottom: 100px !important}
+
+.ml30{margin-left: 0 !important; margin-top: 30px !important;}
+
+
+
+
+.mobile{display: block !important}
+.web{display: none !important}
+
+.pc{display: none !important}
+.mobile{display: block !important}
+.mobile2{display:inline-block !important}
+
+.img100 img{width: auto !important;}
+.img{width: 90% !important; margin-left: 5%;}
+
+
+
+
+/* 메인 */
+/* 메인 */
+.mainBox00{width: 100%; height: auto;
+position: center; margin: 0px auto 0;  left:0%; margin-left: 0px; overflow: hidden;}
+
+.mainBox00 .flexslider{position: relative; left:0%; margin-left: 0px; width: 100%; height: auto}
+
+
+.mainBox01{display: inline-block; height: auto; background: #fff !important; position: relative; margin: 30px auto 0px;  left:2%; margin-left: 0px; overflow: hidden; width:96%; z-index: 9; border: #d9d9d9 1px solid}
+.mainBox01 ul li{display: inline-flex;align-items:center;  background: #fff ; height: 45px; line-height: 45px; font-weight: 700; color: #666666; }
+.mainBox01 ul li + li{border-left: #d9d9d9 1px solid; border-top: #d9d9d9 1px solid}
+.mainBox01 ul li:nth-child(1){width: 100%;  color: #fff; font-size: 20px; height: 55px; line-height: 55px }
+.mainBox01 ul li:nth-child(2){width: 50%; border-left: none; border-top: #d9d9d9 1px solid}
+.mainBox01 ul li:nth-child(3){width: 50%}
+.mainBox01 ul li:nth-child(4){width: 50%; border-left: none;}
+.mainBox01 ul li:nth-child(5){width: 50%}
+.mainBox01 ul li:nth-child(6){width: 50%; display: inline-block; padding: 2px 10px;  line-height: 1.2; border-left: none}
+.mainBox01 ul li:nth-child(7){width: 50%; background: #1a2a71; color: #fff; font-weight: 700; text-align: center; font-size: 16px;  line-height: 35px}
+.mainBox01 ul li input[type="text"]{line-height: 40px; padding-left: 20px; border: 0; width: 100%; }
+.mainBox01 ul li select{padding-left: 20px; border: 0; width: 100%;background: url(https://onedentalad.co.kr/img/main/box01_img02.png) no-repeat 90% center #fff; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+.mainBox01 ul li input[type="checkbox"]{vertical-align: middle}
+.mainBox01 ul li span{font-size: 11px; clear: both}
+.mainBox01 ul li:nth-child(6) a{ margin-left: 15px; line-height: 1.4; font-size: 12px}
+.mainBox01 ul li:nth-child(7) a{display: block; width: 100%; line-height: 35px}
+
+.mainBox02{ display: none}
+.mainBox02 article.r1{display: none}
+.mainBox03{display: none}
+
+
+.mainBox04{width: 96%; margin: 70px auto 0; border: #cfcfcf 1px solid;  }
+.mainBox04 ul li{display: inline-block; width: 50%; padding: 20px 20px 20px; height: auto}
+.mainBox04 ul li + li{border-left: #cfcfcf 1px solid}
+.mainBox04 ul li dt{font-size: 1.250em; margin-bottom: 20px}
+.mainBox04 ul li dl{letter-spacing:-0.04em;}
+.mainBox04 ul li h2{color: #1a2a71;  font-size: 2.500em; font-weight: 700}
+.mainBox04 ul li dd{cursor:pointer; line-height: 55px; font-size: 1.250em;; font-weight: 700; background: url("https://onedentalad.co.kr/img/main/box03_img01.png") 96% center no-repeat; padding: 0 50px}
+.mainBox04 ul li:nth-child(1), .mainBox04 ul li:nth-child(2){cursor:pointer; border-bottom:  #cfcfcf 1px solid}
+.mainBox04 ul li:nth-child(4){padding: 0px;}
+.mainBox04 ul li dd + dd{border-top: #cfcfcf 1px solid;}
+
+
+
+.MmainBox01{margin-top: -50px; font-size: 0}
+.MmainBox01 a{display: inline-block; width: 33.3333%;}
+.MmainBox01 a img{width: 100%;}
+
+.MmainBox02{margin-top: 30px}
+.MmainBox02 a img{width: 100%}
+
+.MmainBox03{margin-top: 30px; font-size: 0}
+.MmainBox03 a{display: inline-block; width: 50%;}
+.MmainBox03 a img{width: 100%}
+
+.MmainBox04{margin-top: 30px; font-size: 0; position: relative; padding-left: 32%;}
+.MmainBox04 .b1{width: 30%; position: absolute; left: 0}
+.MmainBox04 .b2{width: 100%;}
+.MmainBox04 .b3{width: 49%; display: inline-block; margin-top: 10px}
+.MmainBox04 .b4{width: 49%;display: inline-block; margin-left: 2%; margin-top: 10px}
+.MmainBox04  a img{width: 100%;}
+
+.MmainBox05{margin-top: 30px; margin-bottom: 30px}
+.MmainBox05 img{width: 100%}
+
+
+
+.mainBox05{ height: auto; background: none }
+.mainBox05 ul li{display:block; padding-left: 0%; padding-top: 0px; text-align: center}
+.mainBox05 ul li:nth-child(1) img{width: 100%;}
+.mainBox05 ul li dl{font-size: 27px;}
+.mainBox05 ul li dl b{font-weight: 700}
+.mainBox05 ul li dd{display: block; width: 74px; height: 4px; background: #111111; margin: 35px auto 50px}
+.mainBox05 ul li a{display: inline-block;  font-size: 14px; font-weight: 400; width: 30%; height: 30vw; padding-top: 15px; border: #000 1px solid}
+.mainBox05 ul li a img{display: block; width: 50%; margin: 0 auto 5px}
+.mainBox05 ul li a + a{margin-left: 3%}
+.mainBox05 ul li a span{text-underline-offset : 12px; text-decoration: none;}
+
+.mainBox06{padding: 0px 0; background: #f3f4f8 !important; margin-top: 50px; }
+.mainBox06 ul { background: #f3f4f8 !important; padding: 0px 0}
+.mainBox06 ul li{display:block; width: 100%;}
+.mainBox06 ul li:nth-child(1){padding-right: 0px; color: #fff; background:url("https://onedentalad.co.kr/img/main/new_box02_img01.png") top right no-repeat #f3f4f8; height: auto;}
+.mainBox06 ul li:nth-child(1) dt img{vertical-align:top}
+.mainBox06 ul li:nth-child(1) dt{ border-bottom: #fff 2px solid; margin-bottom: 10px; font-size: 40px; padding: 45px 30px 20px }
+.mainBox06 ul li:nth-child(1) dl{padding: 20px 10px; font-size: 12px}
+
+.mainBox06 ul li:nth-child(2){padding-left: 0px; background:none; height: auto; border-top: #000000 1px solid; border-bottom: #000000 1px solid; margin-top: 30px}
+.mainBox06 ul li:nth-child(2) ol{ display: block; position: relative; }
+.mainBox06 ul li:nth-child(2) ol dt{ text-align: left;  color: #6daef6; font-size: 35px; padding-left: 100px; padding-top:50px; padding-bottom: 50px;border-bottom: #000000 1px solid;}
+.mainBox06 ul li:nth-child(2) ol dt span{position: absolute; margin-left: -100px; font-size: 15px; margin-top: -0px; line-height: 1.2; border-right: #1e242a 1px solid; color: #1e242a; padding: 5px 15px 5px }
+.mainBox06 ul li:nth-child(2) ol dl{font-size: 15px; font-weight: 700; vertical-align: top; margin-top: 0px; margin-bottom: 0px; padding-top: 15px; padding-bottom: 15px}
+.mainBox06 ul li:nth-child(2) ol dd{display:block;   font-size: 14px; padding-left: 70px; line-height: 39px;vertical-align: top; color: #1a2a71; font-weight: 400;  letter-spacing:-0.04em; color: #1e242a; padding-top: 15px; padding-bottom: 15px}
+.mainBox06 ul li:nth-child(2) ol dd span{position: absolute; margin-left: -60px; color: #fff; width: 50px; line-height: 40px; background: #000; font-weight: 700; font-size: 10px; text-align: center; border-radius: 50px}
+.mainBox06 ul li:nth-child(2) ol dd + dd{margin-top: 0px; border-top: #aaaaad 1px solid}
+.mainBox06 ul li:nth-child(2) ol dd font{font-size: 11px}
+
+.mainBox06 ul li .mainBox06s{width: 100%; float: none}
+.mainBox06 ul li:nth-child(2) .mainBox06s{float: none}
+
+
+
+.mainBox07{margin-top: 50px; margin-bottom: 85px; }
+.mainBox07 dl{ margin-bottom: 30px}
+
+.mainBox08{padding: 80px 0;}
+.mainBox09{height: 430px; padding: 50px 50px 0; background: url(https://onedentalad.co.kr/img/main/box04_img01.png) center bottom no-repeat #4b82c3; }
+
+.mainBox09 dd{font-size: 1.875em; font-weight: 400; width: 200px; line-height: 40px; position: relative; left: 0px; top:20px; border: #fff 1px solid; border-radius: 50px; padding-left: 45px}
+
+.mainBox10{margin-top: 90px; }
+.mainBox10 ul li{display: block;  width: 100%; height: auto;  padding-top: 30px; padding-bottom: 30px; padding-left: 40px; padding-right: 40px}
+.mainBox10 ul li + li{margin-left: 0px; margin-top: 20px}
+.mainBox10 ul li dt{line-height: 116px; margin: 30px auto 35px; }
+
+
+.mainBox11 ul{width: 100%; overflow: hidden;  text-align: center}
+.mainBox11 ul li{display: block; width: 100%; position: relative; margin: 0 auto !important; text-align: center; }
+.mainBox11 ul li img{width: 100% !important; height: auto !important; margin: 0 auto; }
+.mainBox11 ul li + li{margin-left: 0px;}
+.mainBox11 dd{margin-top: 33px; }
+
+.mainBox12{position: relative; height: auto;}
+.mainBox12 img{position:relative; left: 0%; margin-left: 0px; width: 100%;}
+
+.mainBox13{background: url(https://onedentalad.co.kr/img/main/new_box04_img01.png) center top no-repeat #042241; height: auto; color: #fff; text-align: center; padding-top: 90px; padding-bottom: 90px; background-size: auto 100%}
+.mainBox13 dt{font-size: 2.750em}
+.mainBox13 dl{font-size: 1.500em; margin: 10px 0 60px}
+.mainBox13 a{display: block; margin: 60px auto 0; width: 90%; line-height: 54px; border-radius: 60px; text-align: center; background: #0158f3; color: #28ffd9; font-size: 1.625em}
+.mainBox13 a:hover{color: #fff} 
+.mainBox13 img{width: 100%;}
+
+.mainBox14{text-align: center; height: auto; position: relative}
+.mainBox14 .flexslider3{position: relative; height: 50vw}
+.mainBox14 ul li:nth-child(1){background: url(https://onedentalad.co.kr/img/main/new_box05_img01bg.png) center top no-repeat; background-size: auto 100%}
+.mainBox14 ul li:nth-child(2){background: url(https://onedentalad.co.kr/img/main/new_box05_img02bg.png) center top no-repeat; background-size: auto 100% }
+.mainBox14 ul li:nth-child(3){background: url(https://onedentalad.co.kr/img/main/new_box05_img03bg.png) center top no-repeat; background-size: auto 100% }
+.mainBox14 ul li img{height: 50vw}
+
+/* 서브 */
+.subTopBox01{padding-top: 11vw;  height: 50vw; background-size: auto 100%}
+
+.subTitiel01{ padding: 12vw 0 10vw;}
+.subTitiel01 dl{padding-bottom: 25px; }
+.subTitiel01 dt{margin-top: 15px; }
+.subTitiel01 dd{margin-top: 10px; }
+
+.bg01{display: block; position: relative; background: #f0f1f5 !important; padding: 50px 0 60px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 맴버쉽 */ 
+.loginBox01{ padding: 0 10px}
+.loginBox01 ul:nth-child(1){padding: 30px 0px; }
+.loginBox01 ul:nth-child(2){padding: 30px 0px}
+
+.loginBox01 ul li + li{margin-top: 11px}
+.loginBox01 ul:nth-child(1) li span{width: 18%;}
+
+.loginBox01 ul:nth-child(2) li span{width: 70%;}
+.loginBox01 ul li a{color: #fff; font-size: 1.250em; text-align: center; line-height: 52px; display: inline-block}
+.loginBox01 ul li a.btn01{width: 20%; background: #00b4e4; line-height: 113px; position: absolute; margin-left: 10px }
+.loginBox01 ul li a.btn02{width: 28%; background: #231f1e}
+.loginBox01 ul li a.btn03{width: 28%; background: #4c4441}
+.loginBox01 ul li input.btn01{width: 20%; background: #00b4e4; line-height: 113px; position: absolute; margin-left: 10px }
+
+.loginBox01 ul li input{ width: 60%; height: 51px; padding: 0 15px; border: #d2d2d2 1px solid}
+
+
+
+.joinBox01 ul + ul{margin-top: 30px}
+.joinBox01 table tr th{ width: 25%;  }
+.joinBox01 table tr td{width: 75%;  padding: 10px 10px;}
+.joinBox01 table tr td input[type="text"], input[type="password"]{ width: 100%}
+.joinBox01 table tr td select{ width: 100%}
+
+.joinBox01 table tr td input.l1{width: 70px }
+.joinBox01 table tr td input.l2{width: 40px;}
+.joinBox01 table tr td input.l3{width: 150px;}
+
+.joinBox01 ul li textarea{height: 100px; }
+
+a.joinBtn01{ line-height: 42px; }
+a.joinBtn02{ line-height: 42px;  }
+a.joinBtn03{line-height: 42px;}
+a.joinBtn04{line-height: 42px; width: 30% ; margin-top: 10px}
+a.joinBtn05{line-height: 42px;  }
+
+
+
+.joinPop .joinPopBox01{ margin-top: -75%; left: 5%; margin-left: 0px;  width: 90%; height: auto; padding-top: 0px; padding: 40px 0}
+
+
+.lidBox01 ul {padding: 10px 10px 10px 10px;}
+.lidBox01 ul li{display: block; width: 100%; position: relative; padding: 30px 0}
+.lidBox01 ul li:nth-child(1){padding-left: 0px;}
+.lidBox01 ul li:nth-child(2){padding-left: 0px; border-top: #4c4c4c 1px dotted; border-left:none; }
+.lidBox01 ul li dt{margin: 10px 0 20px}
+.lidBox01 ul li dl span{ width: 11%}
+.lidBox01 ul li dd{margin-left: 11%; width: 90%;  margin-top: 5px }
+.lidBox01 ul li input{width: 60%; line-height: 30px; padding: 0 10px; border: #d8d8d8 1px solid}
+.lidBox01 ul li a.btn01{ width: 25%; line-height: 75px; right: 0px; top: 80px}
+
+
+.joinPop .lidPopBox01{ margin-top: 0; top: 10%; left: 0%; margin-left: 5%;  width: 90%; height: auto;  padding-bottom: 20px}
+.joinPop .lidPopBox01 dt{ line-height: 45px}
+
+.joinPop .myPopBox01{margin-top: 0%; top:10%; left: 0%; margin-left: 5%;  width: 90%;}
+.joinPop .myPopBox01 dd{color: #373737; font-size: 1.625em; margin-bottom: 20px;  margin-bottom: 30px; margin-top: 40px}
+.joinPop .myPopBox01b{margin-left: 5%;  width: 90%;}
+
+
+
+/* 이용약관 */
+
+.serBox01 dl{padding-left: 10px; font-size: 1.250em; font-weight: 700; margin-top: 20px; margin-bottom: 10px}
+.serBox01 dd{padding-left: 10px; font-size: 1.000em; line-height: 160%;}
+.serBox01 dd.l1{padding-left: 20px}
+
+
+#layer_popup {position: fixed;width: 100%; height: 100%; top:0; left:0 ;z-index:2000 ; display: none}
+.popupBg{display: block;width: 100%; height: 100%; background: #000; position: fixed; opacity: 0.8}
+.popupBox{border:5px solid #cccccc;padding:20px 0px 20px 20px; background: #fff;width: 96%; height: 140vw; margin: 10% auto 0; position: relative;z-index: 9999}
+.popupBox .b-close {position:absolute;top:10px;right:15px;color:#000;font-weight:bold;cursor:pointer;font-size: 30px}
+.popupBox .popupContent {margin:0;padding:0px;text-align:left;border:0;width:100%;height:100%; overflow-y: scroll; font-size: 12px }
+
+
+.subMap{border-bottom: #bebebe 1px solid; border-top: #bebebe 1px solid; height: 49px;}
+.subMap a{display: inline-block; width: 12%; height: 47px; background: #1a2a71 ; text-align: center; line-height: 45px; vertical-align: top; margin-left: -1%}
+.subMap select{display: inline-block; width: 43.75%; line-height: 47px; font-size: 1.125em; border: none; padding: 0 10px; border-right: #7f7f7f 1px solid; background: url(https://onedentalad.co.kr/img/select_bg.png) no-repeat 94% center #fff; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+.subMap select:last-child{border-right: none}
+
+
+/* 1 <img src=" - 의료진 스텝소개 */
+.doctorBox01{margin-bottom: 160px}
+.doctorBox01 ul{text-align: left}
+.doctorBox01 ul li{display: inline-block; width: 48.5%; margin-bottom: 0}
+.doctorBox01 ul li dl{ line-height: 37px}
+.doctorBox01 ul li + li{margin-left: 3%}
+.doctorBox01 ul li:nth-child(3){margin-left: 0; margin-top: 20px}
+.doctorBox01 ul li:nth-child(4){margin-top: 20px; margin-left: 3%}
+.doctorBox01 ul li:nth-child(5){margin-top: 20px; margin-left: 0}
+.doctorBox01 ul li:nth-child(6){margin-top: 20px; }
+
+.doctorBox02 h2{font-size: 3.750em; padding-left: 0px; margin-bottom: 45px; text-align: center}
+.doctorBox02 h2 span{font-weight: 300;font-size:30px;}
+.doctorBox02 img{width: 100%;}
+.doctorBox02 ul {background: #f0f3f8; padding: 35px 20px 20px}
+.doctorBox02 ul li{display:block; width:100%; position: relative}
+.doctorBox02 ul li:nth-child(2){width: 520px; display: none}
+.doctorBox02 ul li:nth-child(2) img{position: relative; margin-top: -173px;background: #fff;}
+.doctorBox02 ul li.w1{display: block; width: 100%; background: #fff; border-radius: 20px; margin-top: 40px; padding: 20px 10px }
+.doctorBox02 ul li dl{font-size: 1.250em; padding-left: 20px}
+.doctorBox02 ul li dl span{position: absolute; margin-left: -20px}
+.doctorBox02 ul li dl + dl{margin-top: 10px}
+.doctorBox02 ul li dd{font-size: 1.562em; font-weight: 400; display: block; width: 100%; vertical-align: top; float: none; margin-bottom: 20px}
+.doctorBox02 ul li dd span{display: block; width:50px; height: 1px; background: #000; margin-top: 5px}
+.doctorBox02 ul li table{border:0; border-spacing:0; padding:0; border-collapse:collapse; width: 100%; margin-left: 0px }
+.doctorBox02 ul li table tr th{font-size: 1.250em; border: #ededed 1px solid; border-left: none; text-align: center; background: #fafafa; line-height: 38px}
+.doctorBox02 ul li table tr td{font-size: 1.125em; border-bottom: #ededed 1px solid;; border-right: #ededed 1px solid;line-height: 38px; text-align: center}
+.doctorBox02 ul li table tr th:last-child, .doctorBox02 ul li table tr td:last-child{border-right: none}
+.doctorBox02 ul li table tr td{width: 14.2%;}
+.doctorBox02 ul li table tr td:nth-child(1){width: 14.8%}
+.doctorBox02 ul li table tr td span{line-height: 30px; padding: 0 5px 0px; text-align: center; border: #b5d3f4 1px solid; border-radius: 50px}
+.doctorBox02 ul li table tr td span.p1{border: #fb6f6f 1px solid}
+.doctorBox02 ul li table tr td span.p2{background: #cfcfcf; color: #fff}
+
+
+/* 서브 */
+
+.subTitle01{font-size: 2.500em; text-align: center; margin-bottom: 80px; font-weight: 500; line-height:1.3}
+.subTitle01 span{color: #4c80cd}
+
+.subBox01{min-height: 50vh; padding: 95px 0px 0; margin-bottom: 70px; }
+.subBox01 dt{font-weight: 500; width: 96%;margin-left: 2%; font-size: 2.188em; padding-bottom: 28px; border-bottom: #dedede 1px solid}
+.subBox01 dt b{font-weight: 600; color: #4c80cd}
+.subBox01 dl{font-weight: 500; width: 96%; font-size: 1.250em; margin-top: 35px; margin-left: 2%}
+.subBox01 dd{font-size: 1.250em; font-weight: 300; margin-top: 10px; width: 96%; margin-left: 2%}
+
+.subBox0202{background:url("https://onedentalad.co.kr/img/02one-plant/gra_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 90vw}
+.subBox0202 dt{ width: 96%;}
+.subBox0202 dl{ width: 96%;}
+.subBox0202 dd{ width: 96%;}
+
+.subBox0210{background:url("https://onedentalad.co.kr/img/02one-plant/care_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 100vw}
+.subBox0203{background:url("https://onedentalad.co.kr/img/02one-plant/sle_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 100vw}
+.subBox0204{background:url("https://onedentalad.co.kr/img/02one-plant/max_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 90vw}
+.subBox0205{background:url("https://onedentalad.co.kr/img/02one-plant/imp_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 90vw}
+.subBox0301{background:url("https://onedentalad.co.kr/img/03non-incisional-implant/las_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 85vw}
+.subBox0401{background:url("https://onedentalad.co.kr/img/04navigation-implant/nav_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
+.subBox0501{background:url("https://onedentalad.co.kr/img/05laser-clinic/ws_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 70vw}
+.subBox0502{background:url("https://onedentalad.co.kr/img/05laser-clinic/w_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
+.subBox0601{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/full_img01m.png") left bottom no-repeat #fbfbfb; background-size: 100% auto ; padding-bottom: 90vw   }
+.subBox0603{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/tooth_img01m.png") left bottom no-repeat #fbfbfb; background-size: 100% auto ; padding-bottom: 110vw   }
+
+
+.subBox02{margin-bottom: 70px; }
+.subBox02 ul {text-align: center}
+.subBox02 ul li{display: block; width: 100%; border-radius: 15px; border: #cccccc 1px solid; font-weight: 500; overflow:hidden}
+.subBox02 ul li img{width: 100%;}
+.subBox02 ul li + li{margin-left: 0; margin-top: 30px !important}
+.subBox02 ul li dl{ line-height: 54px; background: #f0f0f0; text-align: center; font-size: 1.500em;  letter-spacing:-0.08em;}
+.subBox02 ul li dl span{display: inline-flex; width:36px; line-height: 36px;text-align: center; justify-content:center; align-items:center; background: #fff; border-radius: 50px; margin-right: 10px}
+.subBox02 ul li:nth-child(4){margin-left: 0; margin-top: 30px}
+.subBox02 ul li:nth-child(5), .subBox02 ul li:nth-child(6){ margin-top: 30px}
+
+
+.subBox03 ul{text-align: center}
+.subBox03 ul li{display: block; width: 100%; height: auto; border-radius: 15px; background: #f9f9f9; margin-bottom: 20px; text-align: center; padding-top: 30px; padding-bottom: 30px}
+.subBox03 ul li + li{margin-left: 0px; margin-top: 30px}
+.subBox03 ul li dt{font-size: 1.500em; margin: 10px 0 20px}
+.subBox03 ul li dl{font-size: 1.125em; padding: 0 20px}
+.subBox03 ul li:nth-child(4){margin-left: 0}
+
+.subBox03b ul li{display: block; width: 100%; height: auto; border-radius: 15px; background: #fff; margin-bottom: 20px; text-align: center; padding-top: 0px}
+.subBox03b ul li dt{margin: 20px 0 20px}
+.subBox03b ul li dl{padding: 0 20px}
+
+.subBox03c ul li{ width: 100%; height: auto; padding-top: 30px}
+.subBox03c ul li + li{margin-left: 0px; margin-top: 30px}
+.subBox03c ul li:nth-child(4){margin-left: 0px; margin-top: 30px}
+
+
+.subBox04 ul{text-align: center}
+.subBox04 ul li{display: block; width: 100%; text-align: left }
+.subBox04 ul li + li{margin-left: 0px; margin-top: 20px}
+.subBox04 ul li dl{vertical-align: middle;background: #fff; border-radius: 50px; line-height: 1.3; padding-left: 57px; font-size: 1.500em; padding-top: 15px; padding-bottom: 15px; font-weight: 400; letter-spacing:0em;position: relative; padding-right: 30px}
+.subBox04 ul li dl span{position: absolute; display: inline-block; width: 38px; line-height: 38px; border-radius: 40px; background: #00367a; color: #fff; text-align: center; margin-left: -49px; top:50%; margin-top: -19px}
+.subBox04 ul li dl + dl{margin-top: 20px}
+
+.subBox04b ul li{display: block; width: 100%;  padding-top: 0px}
+.subBox04b ul li + li{margin-left: 0px; margin-top: 20px}
+.subBox04b ul li dl + dl{margin-top: 20px}
+
+.subBox04c{width: 100%; padding-top: 0px}
+.subBox04c ul li dl{padding-left: 57px;  padding-top: 10px; padding-bottom: 10px;  }
+.subBox04c ul li dl span{ margin-left: -49px;}
+.subBox04c ul li dl + dl{margin-top: 48px}
+
+.subBox04d ul li{display: block; width: 100%; text-align: left ; padding-top: 0px}
+.subBox04d ul li + li{margin-left: 0px; margin-top: 20px}
+.subBox04d ul li dl{ letter-spacing:-0.08em;}
+.subBox04d ul li dl + dl{margin-top: 20px}
+
+.subBox04e ul li{display: block; width: 100%; text-align: left ; padding-top: 0px; }
+.subBox04e ul li + li{margin-left: 0px; margin-top: 20px}
+.subBox04e ul li dl{background: #f0f1f5}
+
+/* 06 심미클리닉 */
+.toothBox01{width: 100%; left: 0%; margin-left: 0px; }
+.toothBox01 ul li{display: block; width: 94%;margin-left: 3%; height: auto; border-radius: 20px; background: #fff; text-align: center; padding: 30px ;}
+.toothBox01 ul li.l1{display: flex;text-align: center; justify-content:center; align-items:center;width: 94%; background: none}
+.toothBox01 ul li:nth-child(1){margin-bottom: 0px}
+.toothBox01 ul li dl{font-size: 1.125em; width: 100px; line-height: 28px; font-weight: 600; background: #4c80cd; color: #fff; text-align: center; margin:0px auto 15px; border-radius: 50px}
+.toothBox01 ul li dt{font-weight: 600;font-size: 1.875em; margin-bottom: 10px }
+.toothBox01 ul li dd{font-size: 1.125em; padding: 10px 0px 0}
+
+.allBox01{background: url("https://onedentalad.co.kr/img/06aesthetic-clinic/all_img04.png") top center no-repeat; padding-top: 80px; margin-bottom: 100px; text-align: center; min-height: 793px}
+.allBox01 dl{font-size: 2.500em; color: #fff; font-weight: 300; margin-top: 40px; margin-bottom: 60px}
+.allBox01 ul{background: url("https://onedentalad.co.kr/img/06aesthetic-clinic/all_img05.png") top center ; border-radius: 30px; padding: 30px 20px; text-align: left}
+.allBox01 ul li{display: block; width: 100%}
+.allBox01 ul li img{width: 100%;}
+.allBox01 ul li:nth-child(2){width: 100%; margin-top: 30px}
+.allBox01 ul li dd{font-size: 1.250em; padding-top: 10px; line-height: 1.7}
+
+.fullBox01{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/full_img02.png") top center no-repeat; height: auto; text-align: center; padding-top: 100px; padding-bottom: 100px; background-size: auto 100%; margin-bottom: 70px}
+.fullBox01 dl{font-size: 3.125em; margin-top: 25px}
+
+
+/* 05 심미클리닉 */
+.wBox01{background: url("https://onedentalad.co.kr/img/05laser-clinic/w_img04.png") top center no-repeat; padding-top: 80px; margin-bottom: 50px; height: auto; margin-top: 50px; padding-bottom: 80px; background-size: auto 100%;}
+
+/* 04 네비게이션 임플란트 */
+.navBox01{padding: 40px 0; margin-top: 70px}
+.navBox01 ul li{display: block; width: 100%;}
+.navBox01 ul li+li{margin-left: 0px; margin-top: 30px}
+.navBox01 ul li dl{color: #4c80cd; font-size: 1.125em; font-weight: 600; margin: 20px 0}
+.navBox01 ul li dt{font-weight: 500; font-size: 1.500em; margin-bottom: 10px}
+.navBox01 ul li dd{font-size: 1.125em}
+
+.navBox02{width:100%; margin: 0 auto}
+.navBox02 ul li{width: 48%; display: inline-block; color: #fff; text-align: center;  position: relative;margin-bottom: 40px}
+.navBox02 ul li dt{font-size: 1.500em; position: absolute;width: 100%; top: 34vw}
+.navBox02 ul li dl{font-size: 1.125em; margin-top: 25px; position: absolute; width: 100%; top: 34vw}
+.navBox02 ul li dl.t1{margin-top: 35px}
+.navBox02 ul li+ li{margin-left: 4%}
+.navBox02 ul li:nth-child(4){margin-left: 4%}
+.navBox02 ul li:nth-child(4), .navBox02 ul li:nth-child(5), .navBox02 ul li:nth-child(6){margin-bottom: 0}
+.navBox02 ul li:nth-child(5) dt{color: #927630}
+.navBox02 ul li:nth-child(5) dl{color: #000}
+.navBox02 ul li img{width: 100%}
+.navBox02 ul li:nth-child(3){margin-left: 0}
+.navBox02 ul li:nth-child(5){margin-left: 0}
+
+/* 03 무절개 임플란트 */
+.lasBox01{background: #f0f1f5; padding: 50px 0; margin-top: 70px; margin-bottom: -70px}
+.lasBox01 table tr th{ line-height: 1.3; font-size: 1.875em; padding: 15px 0; position: relative}
+.lasBox01 table tr td{ line-height: 1.3;  font-size: 1.500em; padding: 10px 0}
+.lasBox01 table tr th:nth-child(3) img{position: absolute; margin-left: -25px; left:0; top:50%; margin-top: -17px; z-index: 99; width: 50px}
+.lasBox01 table tr td:nth-child(1){width: 20% !important}
+.lasBox01 table tr td:nth-child(2){color: #4c80cd; width: 40% !important}
+.lasBox01 table tr td:nth-child(3){width: 40% !important}
+
+.lasBox01b{margin-bottom: 0}
+.lasBox01b table tr td:nth-child(2){padding:10px 10px; letter-spacing:-0.04em;}
+.lasBox01b table tr td:nth-child(3){padding:10px 10px; letter-spacing:-0.04em;}
+
+
+.ostBox02{ margin: 60px auto 60px; min-height: 600px}
+.ostBox02 ul li{display: block; width: 100%; text-align: center}
+.ostBox02 ul li:nth-child(1){ padding-left: 20px; padding-top: 50px; padding-right: 20px}
+.ostBox02 ul li dt{ padding-bottom: 20px;  margin-bottom: 25px}
+.ostBox02 ul li dl{ margin-bottom: 20px; }
+.ostBox02 ul li img{width: 100%;}
+.ostBox02 ul li dd{margin-bottom: 30px}
+
+.ostBox02b ul li:nth-child(2){padding-top: 0px}
+
+
+.ostBox02c ul li:nth-child(2){padding-top: 0px}
+
+.ostBox02c ol{display: inline-block; text-align: center; width: 48%; min-height: auto; margin-bottom: 30px; padding-bottom: 20px}
+.ostBox02c ol dt{color: #2a347e; font-size: 2.000em; margin-top: 25px}
+.ostBox02c ol dl{font-size: 1.562em}
+.ostBox02c ol + ol{border-left: #bdbdbd 1px solid}
+.ostBox02c ol:nth-child(4){border-left: none}
+
+
+
+.ostBox03{margin: 40px auto 80px}
+.ostBox03 ul li{display:block; width: 100%; height: auto;  padding-top: 50px; padding: 50px }
+.ostBox03 ul li + li{margin-left: 0px; margin-top: 20px}
+
+.ostBox03b{margin: 40px auto 80px}
+
+.ostBox04{background: url("https://onedentalad.co.kr/img/03non-incisional-implant/ostem_img05.png") bottom center no-repeat; padding-bottom: 80vw; margin-top: 90px; margin-bottom: -100px; background-size: 200% auto}
+.ostBox04 ul li{display: block; width: 100%; position: relative}
+.ostBox04 ul li + li{margin-left: 0px}
+.ostBox04 ul li dl{margin-bottom: 20px; background: #f0f1f5; font-size: 1.500em; padding-left: 56px; line-height: 54px; border-radius: 50px; position: relative; font-weight: 400}
+.ostBox04 ul li dl span{background: #289bf8; position: absolute; left: 10px; top: 8px; border-radius: 50px; line-height: 38px; height: 38px; width: 38px; text-align: center; color: #fff; }
+.ostBox04 ul li dl.l1 span{background: #00367a}
+
+
+
+
+/* 02 one플란트 */
+.impBox01{background: url("https://onedentalad.co.kr/img/02one-plant/imp_img08.png") top center no-repeat; padding-top: 80px;  height: auto;  margin-bottom: -70px; padding-bottom: 80px; background-size: auto 100%}
+
+
+.maxBox01{background: url("https://onedentalad.co.kr/img/02one-plant/max_img05.png") top center no-repeat; padding-top: 80px;  height: auto; padding-bottom: 80px; margin-top: 90px; background-size: auto 100%}
+.maxBox01 .subTitle01{color: #fff}
+
+.maxBox02{background: url("https://onedentalad.co.kr/img/02one-plant/max_img06.png") top center no-repeat; padding-top: 135px;  height: auto; padding-bottom: 100px; margin-bottom: -70px; background-size: auto 100%}
+.maxBox02 ul{width: 100%; }
+.maxBox02 ul li{padding: 20px 10px 20px 30px;  }
+.maxBox02 ul li span{ top:0%; margin-top: 20px }
+
+.sleBox01{background: #f0f1f5; margin: 70px 0; padding: 80px 0 70px}
+.sleBox01 table{border:0; border-spacing:0; padding:0; border-collapse:collapse; width: 100%;}
+.sleBox01 table tr th{border: #e8e8e8 1px solid; border-right: none;background: #d0d0d0;  line-height: 51px; text-align: center;font-size: 1.075em;font-weight: 500; }
+.sleBox01 table tr td{border-bottom:#e8e8e8 1px solid; border-left: #e8e8e8 1px solid; line-height: 1.3; text-align: left; font-size: 1.000em; font-weight: 500; color: #000000; background: #fff; padding: 20px 10px; width: 33.333%; vertical-align: top}
+.sleBox01 table tr th:last-child, .sleBox01 table tr td:last-child{border-right:  #e8e8e8 1px solid; }
+.sleBox01 table tr th:nth-child(2){background: #4c80cd; color: #fff; font-weight: 700}
+.sleBox01 table tr td ol{border-top: #e8e8e8 1px solid; padding: 20px 0 0px 0px; margin-top: 20px}
+.sleBox01 table tr td ol dl{background: url("https://onedentalad.co.kr/img/02one-plant/sle_img05.png") top left no-repeat; background-size: 12px; line-height: 15px; padding-left: 18px; text-align: left; font-size: 0.975em; margin-bottom: 10px}
+.sleBox01 table tr td:nth-child(2) ol dl{background: url("https://onedentalad.co.kr/img/02one-plant/sle_img06.png") top left no-repeat; background-size: 12px; }
+
+
+.graBox01{background: #f0f1f5; margin: 60px 0 ; padding: 80px 0 70px}
+.graBox01 dl{text-align: center; background: #fff; padding: 40px 30px}
+.graBox01 dl img{width: 100%}
+
+
+.oneBox01{background: url("https://onedentalad.co.kr/img/02one-plant/one_img01m.png") top center no-repeat #f2f6f9; height: auto; padding-bottom: 50px; background-size: 100% auto ; padding-top: 90vw}
+.oneBox01 dt{padding: 0 10px; font-size: 2.813em; margin-bottom: 40px}
+.oneBox01 dl{padding: 0 10px; font-size: 1.875em; font-weight: 400}
+
+.oneBox01 dd span{position: absolute; margin-left: -20px}
+
+.oneBox01b{background: url("https://onedentalad.co.kr/img/02one-plant/one_img02m.png") top center no-repeat #f2f6f9; height: auto; padding-bottom: 50px; background-size: 100% auto ; padding-top: 90vw; text-align: right}
+.oneBox01c{background: url("https://onedentalad.co.kr/img/02one-plant/one_img03m.png") top center no-repeat #f2f6f9; height: auto; padding-bottom: 50px; background-size: 100% auto ; padding-top: 90vw }
+
+.oneBox02{margin-bottom: -70px; text-align: center; }
+.oneBox03 ul{text-align: center; margin-bottom: 70px}
+.oneBox03 ul li{display: block; width: 100%; }
+.oneBox03 ul li img{border: #dddad7 1px solid; width: auto !important}
+.oneBox03 ul li + li{margin-left: 0px; margin-top: 20px}
+.oneBox03 ul li dl{font-size: 1.125em; color: #fff; background: #4c80cd; width: 88px; line-height: 25px; margin: 18px auto 10px; border-radius: 30px; font-weight: 400}
+.oneBox03 ul li dt{font-size: 1.562em}
+
+.oneBox02  img{width: 100%;}
+
+
+.oneBox04{background: url("https://onedentalad.co.kr/img/02one-plant/medical_img01.png") bottom center no-repeat #f2f6f9; min-height: auto; padding-bottom: 90vw; padding-top: 100px; background-size: 130% auto }
+
+.oneBox04 dd{ letter-spacing:1.0em;; margin-bottom: 80px; }
+
+.oneBox04b{background: url("https://onedentalad.co.kr/img/02one-plant/staff_img01.png") bottom center no-repeat #f2f6f9; min-height: auto; background-size: 130% auto}
+.oneBox04c{background: url("https://onedentalad.co.kr/img/02one-plant/management_img01.png") bottom center no-repeat #f2f6f9; min-height: auto; background-size: 130% auto}
+
+.staffBox01{ padding:80px 0 50px}
+.staffBox01 dt{margin-bottom: 75px;  margin-top:25px}
+.staffBox01 dl{margin-top:20px}
+.staffBox01 dd{  letter-spacing:1.0em; margin-bottom: 70px;}
+.staffBox01 img + img{margin-left:0px; margin-top: 20px}
+.staffBox01 img{max-width: 98%}
+
+
+.staffBox02{ padding: 70px 0 90px}
+.staffBox02 ul li{display: block; width: 100%; text-align: center; }
+.staffBox02 ul li:nth-child(2){width: 100%; text-align: center; padding-top: 65px}
+.staffBox02 ul li img{width: 60%}
+
+
+
+.medicalBox01{ padding:85px 0 40px; }
+.medicalBox01 dt{margin-bottom: 75px;  margin-top:25px}
+.medicalBox01 dl{margin-top:20px}
+.medicalBox01 dd{letter-spacing:1.0em; margin-bottom: 70px;}
+.medicalBox01 img{max-width: 98%}
+.medicalBox01 ul li{display: block; width: 100%; text-align: center; margin-bottom:0px}
+.medicalBox01 ul li.l1{margin-left: 0; }
+.medicalBox01 ul li.l2{text-align: center}
+.medicalBox01 ul li b{ margin: 20px 0 10px;}
+.medicalBox01 ul li.t1 b{margin: 20px 0 10px; }
+.medicalBox01 ul li span{display: none}
+.medicalBox01 ul li p{margin-bottom: 60px}
+.medicalBox01 ul li img{width: 100%}
+
+.managementBox01 ul li b{margin-bottom: 15px}
+.managementBox01 ul li{display:block; width: 100%; height: 48vw;  margin-bottom: 20px; padding: 30px 120px 30px 35px; }
+.managementBox01 ul li:nth-child(1){background:  url("https://onedentalad.co.kr/img/02one-plant/management_img02.png") 10% right no-repeat #fff; background-size: 100px}
+.managementBox01 ul li:nth-child(2){margin: 0 0px 20px; background:  url("https://onedentalad.co.kr/img/02one-plant/management_img03.png") bottom right no-repeat #fff; background-size: 100px}
+.managementBox01 ul li:nth-child(3){background:  url("https://onedentalad.co.kr/img/02one-plant/management_img04.png") bottom right no-repeat #fff; background-size: 100px}
+.managementBox01 ul li:nth-child(4){background:  url("https://onedentalad.co.kr/img/02one-plant/management_img05.png") bottom right no-repeat #fff; background-size: 100px}
+.managementBox01 ul li:nth-child(5){margin: 0 0px 20px; background:  url("https://onedentalad.co.kr/img/02one-plant/management_img06.png") bottom right no-repeat #fff; background-size: 100px}
+.managementBox01 ul li:nth-child(6){background:  url("https://onedentalad.co.kr/img/02one-plant/management_img07.png") bottom right no-repeat #fff; background-size: 100px}
+.managementBox01 ul li:nth-child(7){background:  url("https://onedentalad.co.kr/img/02one-plant/management_img08.png") bottom right no-repeat #fff; background-size: 100px}
+.managementBox01 ul li:nth-child(8){margin: 0 0px 20px; padding: 30px 35px 30px 35px; }
+.managementBox01 ul li:nth-child(9){margin: 0 0px 20px; padding: 30px 35px 30px 35px; }
+
+/* 원치과 소개*/
+.locBox01{margin-top: 60px;}
+.locBox01 ul li{display: block; width: 100%; background: #1a2a71; color: #fff; padding: 22px 20px}
+.locBox01 ul li dl{background: url("https://onedentalad.co.kr/img/01about/loc_img02.png") top left no-repeat;  padding-top: 0px; padding-left: 40px; font-size: 1.375em; font-weight: 500; background-size: 30px; line-height: 30px}
+.locBox01 ul li:nth-child(2){text-align: center}
+.locBox01 ul li a{display: inline-block; width: 40%; line-height: 41px; text-align: center; border: #fff 1px solid; font-size: 1.250em}
+.locBox01 ul li a + a{margin-left: 15px}
+
+.locBox01 table{border:0; border-spacing:0; padding:0; border-collapse:collapse; width: 100%; margin-top: 100px}
+.locBox01 table tr th{border: #c9c9c9 1px solid; border-right: none;background: #f7f7f7;  text-align: center;font-size: 1.562em;font-weight: 500;width: 30% ; padding: 40px 0}
+.locBox01 table tr th img{display: block; margin: 0 auto 10px}
+.locBox01 table tr td{border: #c9c9c9 1px solid; border-right: none;line-height: 1.3; text-align: left; font-size: 1.250em;  padding: 30px 10px; width: 70%}
+.locBox01 table tr th:last-child, .locBox01 table tr td:last-child{border-right:  #c9c9c9 1px solid; }
+.locBox01 table tr td dl{display: block; width: 100%;  background: url("https://onedentalad.co.kr/img/01about/loc_img03.png") top left no-repeat; background-size: 60px; position: relative; padding-top: 17px; min-height: 60px; padding-left: 80px; font-weight: 400}
+.locBox01 table tr td dl:nth-child(2){background: url("https://onedentalad.co.kr/img/01about/loc_img04.png") top left no-repeat;background-size: 60px; }
+.locBox01 table tr td dl:nth-child(3){background: url("https://onedentalad.co.kr/img/01about/loc_img05.png") top left no-repeat;background-size: 60px; }
+.locBox01 table tr td dl + dl{margin-top: 10px}
+.locBox01 table tr td dt{font-weight: 400; margin-bottom: 30px}
+.locBox01 table tr td dd{display: block; width: 100%; padding-left: 66px; font-weight: 400; }
+.locBox01 table tr td dd span{position: absolute; margin-left: -66px; width: 45px; line-height: 20px; color: #fff; text-align: center; background: #274abe; font-size: 0.875em}
+.locBox01 table tr td dd:nth-child(2) span{ background: #d70f0f}
+.locBox01 table tr td dd + dd{margin-top: 30px}
+
+.locBox02 {margin: 105px 0 0px; text-align: center}
+.locBox02 dt{font-size: 1.875em; text-align: left;margin-bottom: 40px}
+.locBox02 img{width: 100%;}
+.locBox02 ul {margin-top: 100px}
+.locBox02 ul li{display: block; width: 100%; text-align: center}
+.locBox02 ul li + li{margin-left: 0px; margin-top: 20px}
+.locBox02 ul li iframe{width:300px ; height: 169px;}
+
+.medBox01{background: url("https://onedentalad.co.kr/img/01about/med_img01.png") top center no-repeat; text-align: center; color: #fff; padding-top: 50px; height: 200px; background-size: auto 100%}
+.medBox01 dt{font-size: 2.188em}
+.medBox01 dl{font-size: 1.562em; margin-top: 15px}
+
+.medBox02{margin-top: 100px }
+.medBox02 ul li{display: block; width: 100%; border: #cccccc 1px solid; text-align: left}
+.medBox02 ul li + li{margin-left: 0px; margin-top: 20px}
+.medBox02 ul li dt{border-right: #cccccc 1px solid; padding: 20px 0px; display: inline-block; width: 20%; text-align: center; font-size: 1.250em}
+.medBox02 ul li dt img{margin-bottom: 10px ; width: 40px}
+.medBox02 ul li dt span{font-size: 0.875em; font-weight: 400}
+.medBox02 ul li ol{display: inline-block; width: 39%; text-align: center; vertical-align: top; margin-top: 30px}
+.medBox02 ul li ol b{display: block; color: #1a2a71; font-weight: 600; font-size: 1.375em}
+.medBox02 ul li ol b span{background: #ccdef4; color: #2942af; font-size: 0.875em; border-radius: 30px; padding: 0 5px; font-weight: 400; margin-left: 5px}
+.medBox02 ul li ol dl{font-size: 1.250em; margin: 10px 0 5px; font-weight: 400}
+.medBox02 ul li ol dd{font-size: 1.000em; color: #0158f3; font-weight: 400}
+.medBox02 ul li ol + ol{border-left:#cccccc 1px solid; }
+.medBox02 ul li ol b.c1{color: #558bce}
+.medBox02 ul li ol dl.l1{font-size: 1.125em; margin: 15px 10px 20px; font-weight: 400; color: #d56c6c}
+
+.medBox03{background: url("https://onedentalad.co.kr/img/01about/med_img04m.png") top center no-repeat #f7f7f7; background-size: 100% auto;  padding-top:110vw; height: auto; margin-top: 100px; margin-bottom: 120px}
+.medBox03 ul{padding-left: 0%;}
+.medBox03 ul li{padding-left: 30px; background: #f7f7f7; padding-bottom: 50px}
+.medBox03 ul li dt{font-size: 2.188em}
+.medBox03 ul li dl{font-size: 1.125em; margin-top: 15px; margin-bottom: 10px}
+.medBox03 ul li dd{color: #1a2a71; font-weight: 600; font-size: 3.750em; margin: 10px 0 15px}
+.medBox03 ul li span{display: block; width: 66px; height: 1px; background: #000; margin: 10px 0 15px}
+.medBtn01{ display: inline-block; width: 70%; line-height: 50px; background: url("https://onedentalad.co.kr/img/01about/med_img05.png") 90% center  no-repeat #1a2a71; color: #fff !important; font-weight: 600; font-size: 1.250em; padding-left: 20px }
+.medBtn02{ display: inline-block; width: 45%; line-height: 50px; background: url("https://onedentalad.co.kr/img/01about/med_img05.png") 90% center  no-repeat #1a2a71; color: #fff !important; font-weight: 600; font-size: 1.250em; padding-left: 20px ; margin: 0 5px; text-align: left}
+
+.preBox01{background: #f7f7f7; padding: 60px 0;  }
+.preBox01 ul li{display:block; width: 100%}
+.preBox01 ul li img{width: 100%;}
+.preBox01 ul li dt{font-size: 1.562em; margin-top: 50px; font-weight: 500; padding: 0 20px}
+.preBox01 ul li dl{font-size: 1.125em; margin-top: 15px; padding: 0 20px}
+
+.preBox01b{background: #fff;  }
+.preBox01b ul li{text-align: right}
+
+.intBox01{text-align: center; margin-bottom: 100px}
+.intBox01 img{width: 60%;}
+.intBox01 dl{color: #1a2a71; font-size: 3.125em; font-weight: 500; margin: 40px 0 15px}
+.intBox01 dd{font-size: 2.188em}
+
+.intBox02{background: url("https://onedentalad.co.kr/img/01about/int_img02.png") top center no-repeat; height: auto; background-size: auto 100%}
+.intBox02 ul li{display: block; width: 100%; text-align: center; padding-top: 36px}
+.intBox02 ul li:nth-child(2){text-align: left; padding: 40px 0 40px 20px; }
+.intBox02 ul li dl{color: #1a2a71; font-size: 1.250em}
+.intBox02 ul li dt{font-size: 2.500em; margin: 25px 0 30px}
+.intBox02 ul li dt span{font-size: 0.624em; font-weight: 400}
+.intBox02 ul li dd{font-size: 1.875em}
+
+.intBox03{margin-top: 120px}
+.intBox03 ul li{display: block; width: 100%; position: relative; min-height: auto } 
+.intBox03 ul li:nth-child(2){width: 100%; line-height: 1.5}
+.intBox03 ul li dt{color: #1a2a71; font-size: 2.500em; line-height: 1.6;  font-family: 'Nanum Myeongjo', serif;}
+.intBox03 ul li dt span{text-decoration: underline}
+.intBox03 ul li dl{font-size: 1.600em; font-weight: 300;}
+.intBox03 ul li img{position: relative; bottom: 0; margin: 50px 0 50px; width: 100%;}
+.intBox03 ul li:nth-child(2) img{position: relative; width: 50%; margin: 0 5% 0 0; padding-right: 0%}
+
+/* 비급여수가*/
+.iteBox00{overflow-x: scroll}
+
+
+.iteBox01{margin-top: 10px}
+.iteBox01 tr th{ padding: 10px 0;    }
+.iteBox01 tr td{ padding: 10px 2px;   }
+
+.quick a + a{margin-top: 8px}
+
+.quick__mobile{
+	left: unset; right: 2% !important; top: 50% !important;
+}
+
+
+
+
+
+.tooBox03 ul li{display: block; width: 100%; height: auto; padding-bottom: 40px}
+.tooBox03 ul li + li{margin-left: 0px; margin-top: 30px}
+.tooBox03 ul li dd{padding: 0 20px}
+.tooBox03 ul li img{width: 100%;}
+
+.tooBox04{background: url("https://onedentalad.co.kr/img/06aesthetic-clinic/too_img04.png") top center no-repeat;  height: auto; padding-top: 75px; background-size: auto 100%; padding-bottom: 40px}
+.tooBox04 ul{padding: 10px; background: #fff}
+.tooBox04 ul li{display: block; width:100%; min-height: auto}
+.tooBox04 ul li:nth-child(2){width: 100%; padding: 40px 0 40px 10px;}
+
+.tooBox04 h2{font-size: 1.500em; font-weight: 400; text-align: center; background: #1a2a71; line-height: 1.3; padding: 20px;}
+.tooBox04 ul li img{width: 100%;}
+
+
+.tooBox05 ul li{display:block; width: 100%; min-height: 300px; padding: 44px 30px 44px }
+.tooBox05 ul li + li{margin-left: 0px; margin-top: 20px}
+
+.tooBox06{padding: 100px 0}
+.tooBox06 ul {text-align: center}
+.tooBox06 ul li{display:inline-block; width: 48%; margin-bottom: 20px}
+.tooBox06 ul li + li{margin-left: 4%}
+.tooBox06 ul li:nth-child(3){margin-left: 0}
+.tooBox06 ul li dt{line-height: 45px}
+.tooBox06 ul li img{width: 100%}
+
+
+.tooBox07 dd{ padding: 15px 0 15px 50px; width: 100%; }
+.tooBox07 dd span{ width: 30px; line-height: 30px;  margin-left: -45px; }
+
+.tooBox08{background: url("https://onedentalad.co.kr/img/06aesthetic-clinic/too_img15.png") top center no-repeat; height: auto; padding-top: 100px; margin-bottom: -100px; padding-bottom: 100px; background-size: auto 100%}
+.tooBox08 dd{display: block; width: 100%; line-height: 1.3; padding-left: 150px;  margin-left: 0px; margin-bottom: 20px; padding: 20px 20px 20px 80px}
+.tooBox08 dd span{position: absolute; color: #1a2a71; font-weight: 600; margin-left: -70px}
+
+
+
+.preBox2{  margin-top: 40px}
+.preBox2 ul{padding-top: 50px}
+.preBox2 ul li{ width: 22%;}
+.preBox2 ul li:nth-child(2){width: 77%; }
+.preBox2 ul li:nth-child(2) a{display: inline-block; margin-left: 3px; margin-top: 10px; width: 85px; height: 45px; background-size: 100%}
+.preBox2 ul li:nth-child(2) a.on img{border: #2977ed 2px solid}
+.preBox2 ul li:nth-child(1){padding-left: 0px}
+
