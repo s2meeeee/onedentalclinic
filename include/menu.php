@@ -7,7 +7,7 @@ define('home_url', '/index.php');
 
 
 //메뉴 01
-define('menu01', '원치과소개');
+define('menu01', '<img src="');
 define('menu01_url', '/01about/introduce.php');
 
 define('menu0101', '병원장 인사말');
