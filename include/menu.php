@@ -28,6 +28,10 @@ define('menu0105_url', '/01about/medical-guide.php');
 define('menu0106', '오시는길');
 define('menu0106_url', '/01about/location.php');
 
+define('menu0107', '의료진소개작업');
+define('menu0107_url', '/01about/doctor250418.php');
+
+
 
 
 
@@ -128,6 +132,8 @@ define('menu0605_url', '/06aesthetic-clinic/onebraces.php');
 
 define('menu0606', 'ONE교정');
 define('menu0606_url', '/06aesthetic-clinic/oneqickbraces.php');
+
+
 
 
 //메뉴 07

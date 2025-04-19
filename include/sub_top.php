@@ -1,4 +1,4 @@
-<?php if (($pagename == 'introduce.php'  || $pagename == 'doctor.php' || $pagename == 'preview.php' || $pagename == 'medical-guide.php' || $pagename == 'location.php' || $pagename == 'onelab.php' || $pagename == 'preview2.php') ) {  ?>
+<?php if (($pagename == 'introduce.php'  || $pagename == 'doctor.php' || $pagename == 'preview.php' || $pagename == 'medical-guide.php' || $pagename == 'location.php' || $pagename == 'onelab.php' || $pagename == 'preview2.php'  || $pagename == 'doctor250418.php') ) {  ?>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/include/sub_top01.php'; ?>
 
 

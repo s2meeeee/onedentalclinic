@@ -158,6 +158,10 @@ $popups = $popupDao->getList("popups", 1, 3, " AND is_active = 'Y'");
 							<a href="<?php echo menu0105_url ?>"><?php echo menu0105 ?></a>
 							<a href="<?php echo menu0106_url ?>"><?php echo menu0106 ?></a>
                             <!--예은 기공소 추가-->
+
+							<!-- 선미 의료진소개 작업 시작 -->
+							<a href="<?php echo menu0107_url ?>"><?php echo menu0107 ?></a>
+							<!-- 선미 의료진소개 작업 끝 -->
                     </article>
                    	<article>
                             <a href="<?php echo menu0200_url ?>"><?php echo menu0200 ?></a>
@@ -189,8 +193,8 @@ $popups = $popupDao->getList("popups", 1, 3, " AND is_active = 'Y'");
 							<a href="<?php echo menu0602_url ?>"><?php echo menu0602 ?></a>
 				            <a href="<?php echo menu0603_url ?>"><?php echo menu0603 ?></a>
                             <a href="<?php echo menu0604_url ?>"><?php echo menu0604 ?></a>
-                        	<!--예은충치치료 메뉴바 추가-->
-							<!-- 선미치아교정 메뉴바 추가 -->
+                        <!--예은충치치료 메뉴바 추가-->
+						<!-- 선미치아교정 메뉴바 추가 -->
 							<a href="<?php echo menu0605_url ?>"><?php echo menu0605 ?></a>
 							<a href="<?php echo menu0606_url ?>"><?php echo menu0606 ?></a>
 							<!-- 선미치아교정 메뉴바 추가 -->
@@ -235,7 +239,12 @@ $popups = $popupDao->getList("popups", 1, 3, " AND is_active = 'Y'");
 							<li class="gnb2_2dli"><a href="<?php echo menu0103_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0103 ?></a></li>
 							<li class="gnb2_2dli"><a href="<?php echo menu0104_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0104 ?></a></li>
 							<li class="gnb2_2dli"><a href="<?php echo menu0105_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0105 ?></a></li>
-                    	</ul>
+							<li class="gnb2_2dli"><a href="<?php echo menu0106_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0106 ?></a></li>
+                    	<!-- 선미 의료진소개작업 시작 -->
+							<li class="gnb2_2dli"><a href="<?php echo menu0107_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0107 ?></a></li>
+							<!-- 선미 의료진소개작업 끝 -->
+
+						</ul>
                 </li>
 				<li class="gnb2_1dli">
                     <a href="<?php echo menu02_url ?>" target="_self" class="gnb2_1da"><?php echo menu02 ?></a>
@@ -280,6 +289,9 @@ $popups = $popupDao->getList("popups", 1, 3, " AND is_active = 'Y'");
                         	<li class="gnb2_2dli"><a href="<?php echo menu0601_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0601 ?></a></li>
                             <li class="gnb2_2dli"><a href="<?php echo menu0602_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0602 ?></a></li>
 							<li class="gnb2_2dli"><a href="<?php echo menu0603_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0603 ?></a></li>
+							<li class="gnb2_2dli"><a href="<?php echo menu0604_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0604 ?></a></li>
+							<li class="gnb2_2dli"><a href="<?php echo menu0605_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0605 ?></a></li>
+							<li class="gnb2_2dli"><a href="<?php echo menu0606_url ?>" target="_self" class="gnb2_2da"><span></span><?php echo menu0606 ?></a></li>
                     	</ul>
                 </li>
 				<li class="gnb2_1dli">

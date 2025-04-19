@@ -6,7 +6,7 @@
 </div>
 <div class="subMap">
 	<div class="inner">
-		<a href="/"><img src="/img/home.png"></a>
+		<a href="/"><img src="https://onedentalad.co.kr/img/home.png"></a>
 		<select onchange="if(this.value) location.href=(this.value);">
 		  	<option value="<?php echo menu01_url ?>" ><?php echo menu01 ?></option>
 			<option value="<?php echo menu02_url ?>"><?php echo menu02 ?></option>

@@ -22,8 +22,10 @@
 		  	<option value="<?php echo menu0101_url ?>" <?php if (($pagename == 'introduce.php')) {?>selected="selected"<?php }  ?>><?php echo menu0101 ?></option>
 			<option value="<?php echo menu0102_url ?>" <?php if (($pagename == 'doctor.php')) {?>selected="selected"<?php }  ?>><?php echo menu0102 ?></option>
 			<option value="<?php echo menu0103_url ?>" <?php if (($pagename == 'preview.php')) {?>selected="selected"<?php }  ?>><?php echo menu0103 ?></option>
-			<option value="<?php echo menu0104_url ?>" <?php if (($pagename == 'medical-guide.php')) {?>selected="selected"<?php }  ?>><?php echo menu0104 ?></option>
-			<option value="<?php echo menu0105_url ?>" <?php if (($pagename == 'location.php')) {?>selected="selected"<?php }  ?>><?php echo menu0105 ?></option>
+			<option value="<?php echo menu0104_url ?>" <?php if (($pagename == 'onelab.php')) {?>selected="selected"<?php }  ?>><?php echo menu0104 ?></option>
+			<option value="<?php echo menu0105_url ?>" <?php if (($pagename == 'medical-guide.php')) {?>selected="selected"<?php }  ?>><?php echo menu0105 ?></option>
+			<option value="<?php echo menu0106_url ?>" <?php if (($pagename == 'location.php')) {?>selected="selected"<?php }  ?>><?php echo menu0106 ?></option>
+			<option value="<?php echo menu0107_url ?>" <?php if (($pagename == 'doctor250418.php')) {?>selected="selected"<?php }  ?>><?php echo menu0107 ?></option>
 		</select>	
 	</div>
 </div>
@@ -90,6 +92,21 @@
 	</div>
 </div>
 <?php }  ?>
+
+<!-- 선미의료진작업 시작 -->
+<?php if (($pagename == 'doctor250418.php')) {?>
+<div class="inner1200">
+	<div class="subTitiel01">
+		<dl>ONE DENTAL CLINIC DOCTOR INTRODUCE</dl>
+		<dt><?php echo menu0102?></dt>
+		<dd>숙련된 의료진, 수준높은 치료를 추구합니다</dd>
+	</div>
+</div>
+<?php }  ?>
+<!-- 선미의료진작업 끝 -->
+
+
+
 
 
 

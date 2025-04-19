@@ -879,6 +879,7 @@ input.joinBtn01{cursor:pointer; width: 146px; line-height: 52px; text-align: cen
 .doctorBox01 ul li:nth-child(4){margin-left: 0;}
 .doctorBox01 ul li:last-child {margin-left: 0;}
 
+
 .doctorBox02 h2{font-size: 3.750em; padding-left: 50px; margin-bottom: 45px}
 .doctorBox02 h2 span{font-weight: 300;}
 .doctorBox02 h2 span:last-child{font-weight: 300;font-size: 50px;} /*추가*/
@@ -967,8 +968,7 @@ input.joinBtn01{cursor:pointer; width: 146px; line-height: 52px; text-align: cen
 .subBox0204{background:url("https://onedentalad.co.kr/img/02one-plant/max_img01.png") top center no-repeat; min-height: 506px}
 .subBox0205{background:url("https://onedentalad.co.kr/img/02one-plant/imp_img01.png") top center no-repeat; min-height: 528px}
 .subBox0301{background:url("https://onedentalad.co.kr/img/03non-incisional-implant/las_img01.png") top center no-repeat; min-height: 506px}
-/* .subBox0401{background:url("https://onedentalad.co.kr/img/04navigation-implant/nav_img01.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0} */
-/* .subBox0401{background:url("../img/04navigation-implant/bra_img01.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0} */
+.subBox0401{background:url("https://onedentalad.co.kr/img/04navigation-implant/nav_img01.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
 .subBox0401 dt{width: 585px}
 .subBox0401 dl{width: 585px}
 .subBox0401 dl b{font-weight: 500; color: #4c80cd}
@@ -1450,7 +1450,7 @@ input.joinBtn01{cursor:pointer; width: 146px; line-height: 52px; text-align: cen
 .tooBox08 dd{display: inline-block; width: 620px; line-height: 77px; border: #000 1px solid; padding-left: 150px; font-size: 1.625em; text-align: left; font-weight: 400; margin-left: 20px; margin-bottom: 30px; letter-spacing:-0.08em;}
 .tooBox08 dd span{position: absolute; color: #1a2a71; font-weight: 600; margin-left: -126px}
 
-/* .labbgm08{background: url("https://onedentalad.co.kr//img/01about/lab_img15.png") top center no-repeat;  text-align: center; height: 701px; padding-top: 100px; margin-bottom: -150px} */
+.labbgm08{background: url("https://onedentalad.co.kr//img/01about/lab_img15.png") top center no-repeat;  text-align: center; height: 701px; padding-top: 100px; margin-bottom: -150px}
 
 @media (max-width: 768px) {
 	.popups__container {
@@ -1477,14 +1477,7 @@ input.joinBtn01{cursor:pointer; width: 146px; line-height: 52px; text-align: cen
 
 
 
-/* css 추가 */
-.bgimg01{background:url("../img/06aesthetic-clinic/bra_img01.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
-.bgimg02{background:url("../img/06aesthetic-clinic/bra_img02.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
-.bgimg03{background:url("../img/06aesthetic-clinic/bra_img03.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
-.bgimg04{background:url("../img/06aesthetic-clinic/bra_img04.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
-.bgimg05{background:url("../img/06aesthetic-clinic/bra_img05.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
-.bgimg06{background:url("../img/06aesthetic-clinic/bra_img06.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
 
 
 
-.oneqickbraces-bg__img{background: url("../img/01about/onebr12.jpg") top center no-repeat;  text-align: center; height: 701px; padding-top: 100px; margin-bottom: -150px}
+

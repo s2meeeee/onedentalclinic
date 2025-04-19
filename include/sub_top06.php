@@ -23,10 +23,9 @@
 			<option value="<?php echo menu0602_url ?>" <?php if (($pagename == 'all-ceramic.php')) {?>selected="selected"<?php }  ?>><?php echo menu0602 ?></option>
 			<option value="<?php echo menu0603_url ?>" <?php if (($pagename == 'tooth-whitening.php')) {?>selected="selected"<?php }  ?>><?php echo menu0603 ?></option>
             <option value="<?php echo menu0604_url ?>" <?php if (($pagename == 'tooth-decay.php')) {?>selected="selected"<?php }  ?>><?php echo menu0604 ?></option>
-		<!-- 치아교정추가 250417 시작작-->
+			<!-- 치아교정추가 250417 -->
 			<option value="<?php echo menu0605_url ?>" <?php if (($pagename == 'onebraces.php')) {?>selected="selected"<?php }  ?>><?php echo menu0605 ?></option>
 			<option value="<?php echo menu0606_url ?>" <?php if (($pagename == 'oneqickbraces.php')) {?>selected="selected"<?php }  ?>><?php echo menu0606 ?></option>
-			<!-- 치아교정추가 250417 끝 -->
 		</select>	
 	</div>
 </div>
@@ -69,7 +68,6 @@
 	</div>
 </div>
 <?php }  ?>
-
 <!-- 치아교정추가 250417-->
 <?php if (($pagename == 'onebraces.php')) {?>
 <div class="inner1200">

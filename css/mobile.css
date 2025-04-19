@@ -741,7 +741,7 @@ a.joinBtn05{line-height: 42px;  }
 .subBox01{min-height: 50vh; padding: 95px 0px 0; margin-bottom: 70px; }
 .subBox01 dt{font-weight: 500; width: 96%;margin-left: 2%; font-size: 2.188em; padding-bottom: 28px; border-bottom: #dedede 1px solid}
 .subBox01 dt b{font-weight: 600; color: #4c80cd}
-.subBox01 dl{font-weight: 500; width: 96%; font-size: 1.250em; margin-top: 35px; margin-left: 2%}
+.subBox01 dl{font-weight: 500; width: 96%; font-size: 1.250em; margin-top: 35px; margin-left: 2%; padding-bottom: 50px;}
 .subBox01 dd{font-size: 1.250em; font-weight: 300; margin-top: 10px; width: 96%; margin-left: 2%}
 
 .subBox0202{background:url("https://onedentalad.co.kr/img/02one-plant/gra_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 90vw}
@@ -758,8 +758,10 @@ a.joinBtn05{line-height: 42px;  }
 .subBox0501{background:url("https://onedentalad.co.kr/img/05laser-clinic/ws_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 70vw}
 .subBox0502{background:url("https://onedentalad.co.kr/img/05laser-clinic/w_img01m.png") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
 .subBox0601{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/full_img01m.png") left bottom no-repeat #fbfbfb; background-size: 100% auto ; padding-bottom: 90vw   }
+.subBox0602{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/tooth_img01m.png") left bottom no-repeat #fbfbfb; background-size: 100% auto ; padding-bottom: 110vw   }
 .subBox0603{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/tooth_img01m.png") left bottom no-repeat #fbfbfb; background-size: 100% auto ; padding-bottom: 110vw   }
-/* 250419 css 추가 start*/
+.subBox0603{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/tooth_img01m.png") left bottom no-repeat #fbfbfb; background-size: 100% auto ; padding-bottom: 110vw   }
+.subBox0603{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/tooth_img01m.png") left bottom no-repeat #fbfbfb; background-size: 100% auto ; padding-bottom: 110vw   }
 .subBox0605_1{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/bra_img01_m.jpg") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
 .subBox0605_2{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/bra_img02_m.jpg") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
 .subBox0605_3{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/bra_img03_m.jpg") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
@@ -767,7 +769,7 @@ a.joinBtn05{line-height: 42px;  }
 .subBox0605_5{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/bra_img05_m.jpg") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
 .subBox0605_6{background:url("https://onedentalad.co.kr/img/06aesthetic-clinic/bra_img06_m.jpg") left bottom no-repeat #fbfbfb; min-height: auto;  background-size: 100% auto ; padding-bottom: 80vw}
 
-/* 250419 css 추가 start*/
+
 
 .subBox02{margin-bottom: 70px; }
 .subBox02 ul {text-align: center}

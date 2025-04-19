@@ -1,8 +1,9 @@
 <?php include $_SERVER['DOCUMENT_ROOT'].'/include/head.php'; ?>
-<div id="wrapper">
+<link rel="stylesheet" href="/css/doctor_style_250418.css">
+<div id="wrapper wrap_bg">
 	<div class="inner2">
 		<script type="text/JavaScript">
-			<!--
+<!--
 function tabSwap(sw) {
 	for (i = 1; i < 9; i++) {
 		if (sw == i) {
