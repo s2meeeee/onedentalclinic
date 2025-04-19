@@ -23,6 +23,10 @@
 			<option value="<?php echo menu0602_url ?>" <?php if (($pagename == 'all-ceramic.php')) {?>selected="selected"<?php }  ?>><?php echo menu0602 ?></option>
 			<option value="<?php echo menu0603_url ?>" <?php if (($pagename == 'tooth-whitening.php')) {?>selected="selected"<?php }  ?>><?php echo menu0603 ?></option>
             <option value="<?php echo menu0604_url ?>" <?php if (($pagename == 'tooth-decay.php')) {?>selected="selected"<?php }  ?>><?php echo menu0604 ?></option>
+		<!-- 치아교정추가 250417 시작작-->
+			<option value="<?php echo menu0605_url ?>" <?php if (($pagename == 'onebraces.php')) {?>selected="selected"<?php }  ?>><?php echo menu0605 ?></option>
+			<option value="<?php echo menu0606_url ?>" <?php if (($pagename == 'oneqickbraces.php')) {?>selected="selected"<?php }  ?>><?php echo menu0606 ?></option>
+			<!-- 치아교정추가 250417 끝 -->
 		</select>	
 	</div>
 </div>
@@ -62,6 +66,27 @@
 		<dl>Tooth Decay Treatment</dl>
 		<dt><?php echo menu0604 ?></dt>
 		<dd>충치치료, 초기 발견으로 치료하는 것이 중요합니다.</dd>
+	</div>
+</div>
+<?php }  ?>
+
+<!-- 치아교정추가 250417-->
+<?php if (($pagename == 'onebraces.php')) {?>
+<div class="inner1200">
+	<div class="subTitiel01">
+		<dl>Tooth Decay Treatment</dl>
+		<dt><?php echo menu0605 ?></dt>
+		<dd>기존 교정법들의 장점만을 압축한 ONE 교정</dd>
+	</div>
+</div>
+<?php }  ?>
+
+<?php if (($pagename == 'oneqickbraces.php')) {?>
+<div class="inner1200">
+	<div class="subTitiel01">
+		<dl>Tooth Decay Treatment</dl>
+		<dt><?php echo menu0606 ?></dt>
+		<dd>치아 교정은 처음부터 원(ONE)치과</dd>
 	</div>
 </div>
 <?php }  ?>

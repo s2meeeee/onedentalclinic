@@ -189,7 +189,11 @@ $popups = $popupDao->getList("popups", 1, 3, " AND is_active = 'Y'");
 							<a href="<?php echo menu0602_url ?>"><?php echo menu0602 ?></a>
 				            <a href="<?php echo menu0603_url ?>"><?php echo menu0603 ?></a>
                             <a href="<?php echo menu0604_url ?>"><?php echo menu0604 ?></a>
-                        <!--예은충치치료 메뉴바 추가-->
+                        	<!--예은충치치료 메뉴바 추가-->
+							<!-- 선미치아교정 메뉴바 추가 -->
+							<a href="<?php echo menu0605_url ?>"><?php echo menu0605 ?></a>
+							<a href="<?php echo menu0606_url ?>"><?php echo menu0606 ?></a>
+							<!-- 선미치아교정 메뉴바 추가 -->
                     </article>
 					<article>
                         <a href="<?php echo menu0701_url ?>"><?php echo menu0701 ?></a>

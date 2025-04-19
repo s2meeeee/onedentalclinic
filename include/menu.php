@@ -7,7 +7,7 @@ define('home_url', '/index.php');
 
 
 //메뉴 01
-define('menu01', '<img src="');
+define('menu01', '원치과소개');
 define('menu01_url', '/01about/introduce.php');
 
 define('menu0101', '병원장 인사말');
@@ -123,6 +123,11 @@ define('menu0603_url', '/06aesthetic-clinic/tooth-whitening.php');
 define('menu0604', '충치치료');
 define('menu0604_url', '/06aesthetic-clinic/tooth-decay.php');
 
+define('menu0605', '치아교정');
+define('menu0605_url', '/06aesthetic-clinic/onebraces.php');
+
+define('menu0606', 'ONE교정');
+define('menu0606_url', '/06aesthetic-clinic/oneqickbraces.php');
 
 
 //메뉴 07

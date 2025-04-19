@@ -19,7 +19,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT'].'/include/sub_top05.php'; ?>
 
 
-<?php } else if (($pagename == 'full-bodied-laminate.php'  ||  $pagename == 'all-ceramic.php' ||  $pagename == 'tooth-whitening.php'  ||  $pagename == 'tooth-decay.php') ) {?>
+<?php } else if (($pagename == 'full-bodied-laminate.php'  ||  $pagename == 'all-ceramic.php' ||  $pagename == 'tooth-whitening.php'  ||  $pagename == 'tooth-decay.php'  ||  $pagename == 'onebraces.php'  ||  $pagename == 'oneqickbraces.php')  ) {?>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/include/sub_top06.php'; ?>
 
 
