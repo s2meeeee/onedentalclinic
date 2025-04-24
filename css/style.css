@@ -874,15 +874,15 @@ input.joinBtn01{cursor:pointer; width: 146px; line-height: 52px; text-align: cen
 .doctorBox01 ul li img{width: 100%; }
 .doctorBox01 ul li dl{font-size: 1.437em; border-top: #b8b8b8 1px solid; color: #fff; background: #979797; line-height: 47px}
 .doctorBox01 ul li + li{margin-left: 23px}
-.doctorBox01 ul li.on dl{background: #1a2a71}
+/* .doctorBox01 ul li.on dl{background: #1a2a71} */
 .doctorBox01 ul li:hover dl{background: #1a2a71}
 .doctorBox01 ul li:nth-child(4){margin-left: 0;}
 .doctorBox01 ul li:last-child {margin-left: 0;}
 
 
 .doctorBox02 h2{font-size: 3.750em; padding-left: 50px; margin-bottom: 45px}
-.doctorBox02 h2 span{font-weight: 300;}
-.doctorBox02 h2 span:last-child{font-weight: 300;font-size: 50px;} /*추가*/
+.doctorBox02 h2 span{font-weight: 300;font-size: 50px;}
+/* .doctorBox02 h2 span:last-child{font-weight: 300;font-size: 50px;} */
 .doctorBox02 ul {background: #f0f3f8; padding: 35px 50px 20px}
 .doctorBox02 ul li{display: inline-block; width:677px; position: relative}
 .doctorBox02 ul li:nth-child(2){width: 520px; }
@@ -1473,9 +1473,17 @@ input.joinBtn01{cursor:pointer; width: 146px; line-height: 52px; text-align: cen
 .preBox2 ul li.on dt{color: #2977ed}
 
 
+/* css 추가 */
+.bgimg01{background:url("../img/06aesthetic-clinic/bra_img01.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
+.bgimg02{background:url("../img/06aesthetic-clinic/bra_img02.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
+.bgimg03{background:url("../img/06aesthetic-clinic/bra_img03.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
+.bgimg04{background:url("../img/06aesthetic-clinic/bra_img04.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
+.bgimg05{background:url("../img/06aesthetic-clinic/bra_img05.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
+.bgimg06{background:url("../img/06aesthetic-clinic/bra_img06.png") top center no-repeat; min-height: 500px; padding: 95px 30px 0}
 
 
 
+.oneqickbraces-bg__img{background: url("../img/01about/onebr12.jpg") top center no-repeat;  text-align: center; height: 701px; padding-top: 100px; margin-bottom: -150px}
 
 
 

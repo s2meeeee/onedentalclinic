@@ -2,21 +2,209 @@
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
-#menu1contents {
+/* #menu1contents {
     height: 100vh;
-}
+} */
 
 #wrap_bg{
     background-color: black;
 }
 
-.doctorBox01{
-    display: none;
+
+
+.modal01 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    color: #000;
+  }
+  .modal01 .modal_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .modal01 .modal_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 2px;
+    max-width: 1200px;
+    height: 90%;
+    width: 100%;
+    z-index: 1001;
+    padding: 40px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.doctorBox02{
-    position: absolute;
-    top: 0px;
-    background-color: white;
-    padding-top: 50px;
+@media (min-width: 750px) and (max-width: 1000px) {
+  /*테블릿 세로*/
+
+  .doctorBox01 ul li:last-child{
+    margin-top:20px;
+  }
+
+  .doctorBox02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal01 .modal_content{
+    width: 90%;
+    height: 90%;
+  }
+
+  .doctorBox02 h2 span{
+    font-size: 30px;
+  }
+
+
+  .doctorBox02 img{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .doctorBox02 ul {
+    height: 30rem;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .doctorBox02 ul li{
+    overflow: auto;
+    font-size: 12px;
+
+  }
 }
+
+@media (min-width: 450px) and (max-width: 750px) {
+  .modal01 .modal_content {
+      /* padding: 2px; */
+      max-width: max-content;
+      height: 90%;
+      width: 100%;
+      /* padding: 40px 5px 40px 40px; */
+      margin: 0 auto;
+      box-sizing: border-box;
+      overflow: auto;
+  }
+  .doctorBox02 h2 span{
+    font-size: 30px;
+  }
+  .doctorBox02 ul{
+    margin: 0 auto;
+  }
+
+
+  .doctorBox02 img{
+    width:75%;
+    margin: 0 auto;
+  }
+  
+  .doctorBox01 ul li:last-child{
+    margin-top:20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+  /* .doctorBox02 ul{
+    height: 25rem;
+  } */
+  .modal01 .modal_content{
+    overflow: auto;
+  }
+
+}
+
+  .modal01 .modal_close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* width: 36px; */
+    height: 36px;
+  }
+  .modal .modal_content .scroll {
+    overflow-y: auto;
+    height: 100%;
+    padding-right: 25px;
+    position: relative;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+  }
+  .modal .modal_content .scroll::-webkit-scrollbar {
+    width: 4rem;
+  }
+  .modal .modal_content .scroll::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  .modal .modal_content .scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+
+
+.modal01 .modal_content ul {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+}
+.doctorBox02 ul li:nth-child(2) img {
+  margin-top: 0;
+  width: 100%;
+}
+
+.doctorBox02 h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.modal01 .modal_content ul {
+  border-radius: 20px;
+}
+.doctorBox02 ul {
+  padding: 40px;
+  margin-bottom: 0;
+}
+
+.doctorBox02 ul li {
+  border-radius: 20px;
+}
+
+.doctorBox02 ul .pop_logo{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 32px;
+  /* right: 0; */
+  width: 150px;
+  /* height: 279px; */
+  box-sizing: border-box;
+  opacity: 30%;
+}
+.doctorBox02 ul .pop_logo img{
+  width:100%;
+  border-radius: 0px;
+}
+
+.doctorBox02 ul li img{
+  border-radius: 20px;
+}
+
+/* .doctorBox02 ul li:nth-child(2) {
+  display: flex;
+  justify-content: center;
+} */
+
